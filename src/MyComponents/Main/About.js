@@ -5,7 +5,7 @@ class About extends Component {
     render() {
         return (
             <div>
-                <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-contactbg">
+                <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-aboutbg">
                     <div className="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
                         <div className="text-center lg:w-2/3 w-full">
                         <h1 className="title-font sm:text-7xl text-3xl mb-4 font-medium text-black">About Us</h1>
@@ -50,7 +50,7 @@ class About extends Component {
                         </div>                   
                     
                     </div>
-                    <div className=" lg:w-1/3 px-4 md:w-1/2 flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                    <div className=" lg:w-1/3 px-4 md:w-1/2 flex flex-col md:ml-auto w-full md:mt-0">
                         <div className="text-black">
                             <h1 className="font-bold bg-gray-700 text-white text-2xl p-5">Services</h1>
                             <h1 className=" bg-gray-200 text-xl py-2 pl-8 hover:bg-red-700 hover:text-white hover:rounded-lg">Commercial Security</h1>

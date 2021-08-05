@@ -11,12 +11,9 @@ import Jobs from './MyComponents/Main/Jobs'
 function App() {
   return (
     <div className="App">
-      <About />
-      <Jobs />
-      <Contact />
+      <Header/>
+      <Home />
       <Footer />
-      <SignUp/>
-      <LogIn/>
     </div>
   );
 }
