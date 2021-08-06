@@ -1,36 +1,52 @@
 import React, { Component } from 'react'
 import logo from './../../argus website/PNG/Logo Vectors.png'
+import {Link} from 'react-router-dom'
 
 class Header extends Component {
   render() {
     return (
-      <div>
-
-<div class="text-white body-font bg-red-700">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
-      <a class="mr-5 hover:text-gray-900">Technology</a>
-      <a class="mr-5 hover:text-gray-900">Get Your Security Guard License</a>
-    </nav>
-    <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-    <img src={logo} alt="Logo of Argus Security Services"/>
-    </a>
-    <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-    <nav class="flex lg:w-full flex-wrap items-center text-base md:ml-auto">
-      <a class="mr-5 hover:text-gray-900">Student Portal</a>
-      <a class="mr-5 hover:text-gray-900">Client Portal</a>
-      <a class="mr-5 hover:text-gray-900">Employee Portal</a>
-    </nav>
+<div class="w-full">
+  <div class="text-white body-font bg-red-700">
+    <div class="container w-9/12 mx-auto flex flex-wrap px-5 py-2 flex-col md:flex-row items-center">
+      <nav class="flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+        <a class="mr-5 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Technology</a>
+        <a class="mr-5 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Get Your Security Guard License</a>
+      </nav>
+      <a class="flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
+      <img src={logo} alt="Logo of Argus Security Services" class="w-20"/>
+      </a>
+      <div class="lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
+        <nav class="flex lg:w-full flex-wrap items-center text-base md:ml-auto">
+          <Link to="/login">
+          <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Student Portal</a>
+          </Link>
+          <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Client Portal</a>
+          <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Employee Portal</a>
+        </nav>
+      </div>
     </div>
   </div>
-</div>
-<div class="sticky top-0 z-50 container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+  <div class="container bg-opacity-0 -mb-10 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5 hover:text-gray-900">About</a>
-      <a class="mr-5 hover:text-gray-900">Services</a>
-      <a class="mr-5 hover:text-gray-900">Jobs</a>
-      <a class="mr-5 hover:text-gray-900">Training</a>
-      <a class="mr-5 hover:text-gray-900">Contact</a>
+      <Link to="/about">
+      <a class="border border-gray-800 bg-gray-900 bg-opacity-50 text-l text-white px-16 py-2 hover:text-gray-900">ABOUT</a>
+      </Link>
+
+
+      <a class="border border-gray-800 bg-red-700 bg-opacity-50 text-l text-white px-16 py-2 hover:text-gray-900">SERVICES</a>
+
+      <Link to="/jobs">
+      <a class="border border-gray-800 bg-gray-500 bg-opacity-50 text-l text-white px-16 py-2 hover:text-gray-900">JOBS</a>
+      </Link>
+      
+      <Link to="training">
+      <a class="border border-gray-800 bg-gray-500 bg-opacity-50 text-l text-white px-16 py-2 hover:text-gray-900">TRAINING</a>
+      </Link>
+
+      <Link to="/contact">
+      <a class="border border-gray-800 bg-gray-500 bg-opacity-50 text-l text-white px-16 py-2 hover:text-gray-900">CONTACT</a>
+      </Link>
+    
     </nav>
   </div>
 </div>
