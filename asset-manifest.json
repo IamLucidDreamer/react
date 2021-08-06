@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.72038bcc.chunk.css",
-    "main.js": "/react/static/js/main.deda8b57.chunk.js",
-    "main.js.map": "/react/static/js/main.deda8b57.chunk.js.map",
-    "runtime-main.js": "/react/static/js/runtime-main.d9297834.js",
-    "runtime-main.js.map": "/react/static/js/runtime-main.d9297834.js.map",
-    "static/js/2.730af155.chunk.js": "/react/static/js/2.730af155.chunk.js",
-    "static/js/2.730af155.chunk.js.map": "/react/static/js/2.730af155.chunk.js.map",
-    "static/js/3.daef7f1b.chunk.js": "/react/static/js/3.daef7f1b.chunk.js",
-    "static/js/3.daef7f1b.chunk.js.map": "/react/static/js/3.daef7f1b.chunk.js.map",
+    "main.css": "/react/static/css/main.e9e34606.chunk.css",
+    "main.js": "/react/static/js/main.2a786dcd.chunk.js",
+    "main.js.map": "/react/static/js/main.2a786dcd.chunk.js.map",
+    "runtime-main.js": "/react/static/js/runtime-main.17d650ed.js",
+    "runtime-main.js.map": "/react/static/js/runtime-main.17d650ed.js.map",
+    "static/js/2.aaab8e21.chunk.js": "/react/static/js/2.aaab8e21.chunk.js",
+    "static/js/2.aaab8e21.chunk.js.map": "/react/static/js/2.aaab8e21.chunk.js.map",
+    "static/js/3.71563f33.chunk.js": "/react/static/js/3.71563f33.chunk.js",
+    "static/js/3.71563f33.chunk.js.map": "/react/static/js/3.71563f33.chunk.js.map",
     "index.html": "/react/index.html",
-    "static/css/main.72038bcc.chunk.css.map": "/react/static/css/main.72038bcc.chunk.css.map",
-    "static/js/2.730af155.chunk.js.LICENSE.txt": "/react/static/js/2.730af155.chunk.js.LICENSE.txt",
+    "static/css/main.e9e34606.chunk.css.map": "/react/static/css/main.e9e34606.chunk.css.map",
+    "static/js/2.aaab8e21.chunk.js.LICENSE.txt": "/react/static/js/2.aaab8e21.chunk.js.LICENSE.txt",
     "static/media/index.css": "/react/static/media/World Map.524c4794.png",
     "static/media/Group -5.55cf8e03.png": "/react/static/media/Group -5.55cf8e03.png",
     "static/media/Logo Vectors.fcbf4ccd.png": "/react/static/media/Logo Vectors.fcbf4ccd.png",
@@ -22,9 +22,9 @@
     "static/media/sdm.e72a42e0.png": "/react/static/media/sdm.e72a42e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d9297834.js",
-    "static/js/2.730af155.chunk.js",
-    "static/css/main.72038bcc.chunk.css",
-    "static/js/main.deda8b57.chunk.js"
+    "static/js/runtime-main.17d650ed.js",
+    "static/js/2.aaab8e21.chunk.js",
+    "static/css/main.e9e34606.chunk.css",
+    "static/js/main.2a786dcd.chunk.js"
   ]
 }
