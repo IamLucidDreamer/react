@@ -10,6 +10,7 @@ module.exports = {
         'aboutbg':"url('argus website/PNG/Image Thumbnail2.png')",
         'servicesbg':"url('argus website/PNG/Image Thumbnail.png')",
         'jobsbg':"url('argus website/PNG/Image Thumbnail1.png')",
+        'callus':"url('argus website/PNG/raw-2_edited.png')",
        })
     },
   },
