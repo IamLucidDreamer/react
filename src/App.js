@@ -1,5 +1,6 @@
 import './App.css';
 
+import Hamburger from './MyComponents/Partials/Hamburger';
 import Header from './MyComponents/Partials/Header';
 import Footer from './MyComponents/Partials/Footer';
 import Home from './MyComponents/Main/Home';
@@ -19,9 +20,10 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Hamburger />
         <Header/>
         <switch>
-          <Route path="/" exact component={Home}/>
+          <Route path="/react" exact component={Home}/>
           <Route path="/about" exact component={About}/>
           <Route path="/jobs" exact component={Jobs}/>
           <Route path="/contact" exact component={Contact}/>

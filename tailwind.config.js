@@ -11,7 +11,13 @@ module.exports = {
         'servicesbg':"url('argus website/PNG/Image Thumbnail.png')",
         'jobsbg':"url('argus website/PNG/Image Thumbnail1.png')",
         'callus':"url('argus website/PNG/raw-2_edited.png')",
-       })
+       }),
+       colors: {
+        'gray-1': '#F1F1F1',
+        'gray-2': '#868696',
+        'gray-3': '#3F3F3F',
+        'red-1': '#BA0913',
+      }
     },
   },
   variants: {

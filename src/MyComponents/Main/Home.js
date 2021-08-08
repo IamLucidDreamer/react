@@ -17,19 +17,23 @@ export default function Home() {
       </div>
       <div class="container px-2 mx-auto sm:-mt-20">
           <div class="lg:w-9/12 flex flex-col sm:flex-row sm:items-center mx-auto">
-              <h1 class="flex-grow sm:pr-16 text-4xl font-medium title-font text-gray-400">Call us <br/><span class="text-red-700 text-6xl font-bold">647.289.1070</span></h1>
-              <button class="flex-shrink-0 text-white text-l bg-red-700 border-0 py-4 px-8 focus:outline-none hover:bg-white border-2 border-red-700 hover:text-red-700 rounded-lg text-lg mt-10 sm:mt-0">DISCOVER MORE</button>
+              <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">Call us <br/><span class="text-red-700 text-6xl font-bold">647.289.1070</span></h1>
+              <button class="flex-shrink-0 font-bold text-white text-sm bg-red-700 border-0 py-5 px-10 focus:outline-none hover:bg-white border-2 border-red-700 hover:text-red-700 rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
           </div>
       </div>
 
 <div class="text-gray-600 body-font overflow-hidden">
   < div class="flex flex-wrap px-8 mt-8 text-white justify-center">
       <div class="bg-red-700 px-16 py-5">
-        <p>100% Accountable</p>
+        <div>
+          <p>100% Accountable</p>
+        </div>
         <h1 class="font-bold">Know the Truth for Peace of Mind</h1>
       </div>
       <div class="bg-gray-700 px-16 py-5">
-        <p>100% Accountable</p>
+        <div>
+         <p>100% Accountable</p>
+        </div>
         <h1 class="font-bold">Direct Updates Regarding Incidents</h1>
       </div>
     </div>
