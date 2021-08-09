@@ -1,5 +1,6 @@
-import React, { Component } from 'react'
-import about_image from './../../argus website/PNG/Video.png'
+import React, { Component } from 'react';
+import about_image from './../../argus website/PNG/Video.png';
+import {Link} from "react-router-dom";
 
 class About extends Component {
     
@@ -55,50 +56,50 @@ class About extends Component {
                 <div className="flex flex-wrap my-12">
                     <div className=" md:w-1/2 lg:w-2/3 flex flex-col items-start">
                         <img src={about_image} alt="About page Image"/>
-                        <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Scope of Service</h2>
-                        <p className="leading-relaxed mb-8">Call or visit a Argus Career Centre today. There is no appointment required during
+                        <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">Scope of Service</h2>
+                        <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">Call or visit a Argus Career Centre today. There is no appointment required during
                             regular business hours. We have a wide variety of available roles and jobsites</p>
                         
-                        <ul className="flex">
+                        <ul className="text-gray-3 font-bold text-l flex flex-col sm:flex-row mb-8">
                             <div className="mx-5">
-                                <li><span className="text-red-700">✓</span> Retail Malls</li>
-                                <li><span className="text-red-700">✓</span> Commercial Properties </li>
-                                <li><span className="text-red-700">✓</span> Condominiums </li>
+                                <li><span className="text-red-1">✓</span> Retail Malls</li>
+                                <li><span className="text-red-1">✓</span> Commercial Properties </li>
+                                <li><span className="text-red-1">✓</span> Condominiums </li>
                             </div>
                             <div className="mx-5">
-                                <li><span className="text-red-700">✓</span> Industrial Sites</li>
-                                <li><span className="text-red-700">✓</span> Healthcare Facilities</li>
-                                <li><span className="text-red-700">✓</span> Mobile Guard </li>
+                                <li><span className="text-red-1">✓</span> Industrial Sites</li>
+                                <li><span className="text-red-1">✓</span> Healthcare Facilities</li>
+                                <li><span className="text-red-1">✓</span> Mobile Guard </li>
                             </div>
                         </ul>
                         
-                        <h2 className="sm:text-3xl text-2xl title-font font-medium text-gray-900 mt-4 mb-4">Employment Requirements</h2>
-                        <p className="leading-relaxed mb-8">Call or visit a Argus Career Centre today. There is no appointment required during
+                        <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">Employment Requirements</h2>
+                        <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">Call or visit a Argus Career Centre today. There is no appointment required during
                             regular business hours. We have a wide variety of available roles and jobsites</p>
-                        <ul className="mb-8">
-                            <li><span className="text-red-700">✓</span> A valid Ontario Security Licence </li>
-                            <li><span className="text-red-700">✓</span> Previous experience</li>
-                            <li><span className="text-red-700">✓</span> Education (Ontario Grade 12 or equivalent)</li>
-                            <li><span className="text-red-700">✓</span> Availability to work required shifts </li>
-                            <li><span className="text-red-700">✓</span> No criminal record</li>
-                            <li><span className="text-red-700">✓</span> Canadian citizen or landed immigrant status</li>
-                            <li><span className="text-red-700">✓</span> Available transportation to get to work </li>
-                            <li><span className="text-red-700">✓</span> A clean and professional appearance with good hygiene</li>
+                        <ul className="text-gray-3 font-bold text-l mb-8">
+                            <li><span className="text-red-1">✓</span> A valid Ontario Security Licence </li>
+                            <li><span className="text-red-1">✓</span> Previous experience</li>
+                            <li><span className="text-red-1">✓</span> Education (Ontario Grade 12 or equivalent)</li>
+                            <li><span className="text-red-1">✓</span> Availability to work required shifts </li>
+                            <li><span className="text-red-1">✓</span> No criminal record</li>
+                            <li><span className="text-red-1">✓</span> Canadian citizen or landed immigrant status</li>
+                            <li><span className="text-red-1">✓</span> Available transportation to get to work </li>
+                            <li><span className="text-red-1">✓</span> A clean and professional appearance with good hygiene</li>
                         </ul>
-                        <p className="leading-relaxed mb-8">If you do not have a valid Ontario Security Licence, we can help you train and
+                        <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">If you do not have a valid Ontario Security Licence, we can help you train and
                             apply for one.</p>                  
-                        <button className="w-1/3 p-4 rounded-lg text-3xl border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">APPLY NOW</button>
+                        <button className="mx-auto py-6 px-8 rounded-lg text-3xl border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">APPLY NOW</button>
                     </div>
                     <div className=" lg:w-1/3 px-4 md:w-1/2 flex flex-col md:ml-auto w-full md:mt-0">
-                        <div className="text-black text-l font-medium bg-gray-300 mb-8">
-                            <h1 className="font-bold bg-gray-700 text-white text-xl p-5">Services</h1>
-                            <h1 className="rounded-lg py-4 pl-8 hover:bg-red-700 hover:text-white hover:rounded-md">➔ Residential Security</h1>
-                            <h1 className="rounded-lg py-4 pl-8 hover:bg-red-700 hover:text-white hover:rounded-md">➔ Commercial Security</h1>
-                            <h1 className="rounded-lg py-4 pl-8 hover:bg-red-700 hover:text-white hover:rounded-md">➔ Event Security</h1>
-                            <h1 className="rounded-lg py-4 pl-8 hover:bg-red-700 hover:text-white hover:rounded-md">➔ Employment</h1>
-                            <h1 className="rounded-lg py-4 pl-8 hover:bg-red-700 hover:text-white hover:rounded-md">➔ Security Guard License</h1>
+                        <div className="text-black text-l font-medium bg-gray-200 mb-8">
+                            <h1 className="font-bold bg-gray-3 text-white text-xl p-5">Services</h1>
+                            <Link to="/services"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Residential Security</h1></Link>
+                            <Link to="/services"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Commercial Security</h1></Link>
+                            <Link to="/services"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Event Security</h1></Link>
+                            <Link to="/jobs"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Employment</h1></Link>
+                            <Link to="/training"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Security Guard License</h1></Link>
                         </div>
-                        <div className="flex flex-col items-center text-center mx-auto p-10 bg-cover bg-no-repeat bg-callus mb-8">
+                        <div className="flex flex-col items-center text-center mx-auto p-4 bg-cover bg-no-repeat bg-callus mb-8">
                             <svg class="w-12" xmlns="http://www.w3.org/2000/svg" width="85.04" height="85.003" viewBox="0 0 85.04 85.003">
                                 <g id="Phone_logo" data-name="Phone logo" transform="translate(-36.779 -122.722)">
                                     <g id="Group_7" data-name="Group 7" transform="translate(36.779 122.722)">
@@ -107,14 +108,14 @@ class About extends Component {
                                 </g>
                             </svg>
                             <h1 className="text-l font-bold text-white p-2">Professional Help to get back your peace of mind</h1>
-                            <p className="text-3xl text-red-700 font-bold p-2">647-289-1070</p>
-                            <p className="text-gray-400 p-2">Confidentiality<br/>Guaranteed</p>
+                            <p className="text-3xl text-red-1 font-bold p-2">647-289-1070</p>
+                            <p className="text-gray-2 p-2">Confidentiality<br/>Guaranteed</p>
                         </div>
                         <form className="bg-gray-200 p-6" onSubmit={this.handleSubmit}>
-                            <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-700" type="name" placeholder="Your Name" value={this.state.name} onChange={this.handleNameChange}/>
-                            <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-700" type="telephone" placeholder="Phone Number" value={this.state.phone} onChange={this.handlePhoneChange}/>
-                            <textarea className="w-full h-56 mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-700" type="text" placeholder="Write Message" value={this.state.message} onChange={this.handleMessageChange}/>
-                            <button className="w-full p-4 rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">SEND MESSAGE</button>
+                            <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="name" placeholder="Your Name" value={this.state.name} onChange={this.handleNameChange}/>
+                            <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="telephone" placeholder="Phone Number" value={this.state.phone} onChange={this.handlePhoneChange}/>
+                            <textarea className="w-full h-56 mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="text" placeholder="Write Message" value={this.state.message} onChange={this.handleMessageChange}/>
+                            <button className="w-full p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">SEND MESSAGE</button>
                         </form>
                     </div>
                 </div>

@@ -35,7 +35,7 @@ class Header extends Component {
       </Link>
 
       <Link to="/services">
-      <a class="border border-gray-800 bg-red-700 bg-opacity-50 text-l text-white px-16 py-2 hover:text-red-1">SERVICES</a>
+      <a class="border border-gray-800 bg-red-1 bg-opacity-50 text-l text-white px-16 py-2 hover:text-red-1">SERVICES</a>
       </Link>
 
       <Link to="/jobs">

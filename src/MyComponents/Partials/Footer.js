@@ -53,31 +53,31 @@ class Footer extends Component {
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">EXPLORE</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-white hover:text-red-700">➔ About</a>
+            <a class="text-white hover:text-red-1">➔ About</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Our Services</a>
+            <a class="text-white hover:text-red-1">➔ Our Services</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Covid-19 Plan</a>
+            <a class="text-white hover:text-red-1">➔ Covid-19 Plan</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Organization Structure</a>
+            <a class="text-white hover:text-red-1">➔ Organization Structure</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Jobs</a>
+            <a class="text-white hover:text-red-1">➔ Jobs</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Personnel</a>
+            <a class="text-white hover:text-red-1">➔ Personnel</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Training</a>
+            <a class="text-white hover:text-red-1">➔ Training</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Contact Us</a>
+            <a class="text-white hover:text-red-1">➔ Contact Us</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Technology</a>
+            <a class="text-white hover:text-red-1">➔ Technology</a>
           </li>
         </nav>
       </div>
@@ -85,36 +85,36 @@ class Footer extends Component {
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SERVICES</h2>
         <nav class="list-none mb-10">
           <li>
-            <a class="text-white hover:text-red-700">➔ Gated Community Security</a>
+            <a class="text-white hover:text-red-1">➔ Gated Community Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Construction Security</a>
+            <a class="text-white hover:text-red-1">➔ Construction Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Parking Enforcement</a>
+            <a class="text-white hover:text-red-1">➔ Parking Enforcement</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Residential Security</a>
+            <a class="text-white hover:text-red-1">➔ Residential Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Corporate Security</a>
+            <a class="text-white hover:text-red-1">➔ Corporate Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Industrial Security</a>
+            <a class="text-white hover:text-red-1">➔ Industrial Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Private Security</a>
+            <a class="text-white hover:text-red-1">➔ Private Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Mobile Security</a>
+            <a class="text-white hover:text-red-1">➔ Mobile Security</a>
           </li>
           <li>
-            <a class="text-white hover:text-red-700">➔ Event Security</a>
+            <a class="text-white hover:text-red-1">➔ Event Security</a>
           </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4 text-center items-center pt-10 md:pt-28">
-        <div class="flex flex-col bg-red-700 items-center p-6 ">
+        <div class="flex flex-col bg-red-1 items-center p-6 ">
           <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3 text-center">NEWSLETTER</h2>
           <p class="text-white text-sm mt-2 text-center">Signup to get our daily latest
           security news and updates.</p>

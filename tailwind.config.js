@@ -10,7 +10,7 @@ module.exports = {
         'aboutbg':"url('argus website/PNG/Image Thumbnail2.png')",
         'servicesbg':"url('argus website/PNG/Image Thumbnail.png')",
         'jobsbg':"url('argus website/PNG/Image Thumbnail1.png')",
-        'callus':"url('argus website/PNG/raw-2_edited.png')",
+        'callus':"url('argus website/PNG/aboutcallusbg.png')",
        }),
        colors: {
         'gray-1': '#F1F1F1',
