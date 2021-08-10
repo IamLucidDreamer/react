@@ -52,65 +52,65 @@ class Footer extends Component {
       <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-10 md:pt-32">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">EXPLORE</h2>
         <nav class="list-none mb-10">
-          <li>
+          <li> <Link to="/about">
             <a class="text-white hover:text-red-1">➔ About</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Our Services</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/">
             <a class="text-white hover:text-red-1">➔ Covid-19 Plan</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/">
             <a class="text-white hover:text-red-1">➔ Organization Structure</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/jobs">
             <a class="text-white hover:text-red-1">➔ Jobs</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/">
             <a class="text-white hover:text-red-1">➔ Personnel</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/training">
             <a class="text-white hover:text-red-1">➔ Training</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/contact">
             <a class="text-white hover:text-red-1">➔ Contact Us</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/">
             <a class="text-white hover:text-red-1">➔ Technology</a>
-          </li>
+          </Link> </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4 pt-10 md:pt-32">
         <h2 class="title-font font-medium text-white tracking-widest text-sm mb-3">SERVICES</h2>
         <nav class="list-none mb-10">
-          <li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Gated Community Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Construction Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Parking Enforcement</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Residential Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Corporate Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Industrial Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Private Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Mobile Security</a>
-          </li>
-          <li>
+          </Link> </li>
+          <li> <Link to="/services">
             <a class="text-white hover:text-red-1">➔ Event Security</a>
-          </li>
+          </Link> </li>
         </nav>
       </div>
       <div class="lg:w-1/4 md:w-1/2 w-full px-4 text-center items-center pt-10 md:pt-28">
