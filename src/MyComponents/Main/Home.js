@@ -19,14 +19,14 @@ export default function Home() {
       </div>
       <div class="container px-2 mx-auto sm:-mt-20">
           <div class="lg:w-9/12 flex flex-col sm:flex-row sm:items-center mx-auto">
-              <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">Call us <br/><span class="text-red-700 text-6xl font-bold">647.289.1070</span></h1>
-              <button class="flex-shrink-0 font-bold text-white text-sm bg-red-700 border-0 py-5 px-10 focus:outline-none hover:bg-white border-2 border-red-700 hover:text-red-700 rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
+              <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">Call us <br/><span class="text-red-1 text-6xl font-bold">647.289.1070</span></h1>
+              <button class="flex-shrink-0 font-bold text-white text-sm bg-red-1 border-0 py-5 px-10 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
           </div>
       </div>
 
 <div class="text-gray-600 body-font overflow-hidden">
   < div class="flex flex-wrap px-8 py-4 mt-8 text-white justify-center">
-      <div class="bg-red-700 px-16 py-5">
+      <div class="bg-red-1 px-16 py-5">
         <div>
           <p>100% Accountable</p>
         </div>
@@ -43,7 +43,7 @@ export default function Home() {
     <div class="flex flex-wrap items-start">
       <div class="items-end md:w-1/2 flex flex-col items-start ">
         <img src={section_img1} alt="Argus Security Services"/>
-        <img src={section_img2} alt="Argus Security Services" class="bg-red-700 w-7/12 border-t-8 border-l-8 -mt-44"/>
+        <img src={section_img2} alt="Argus Security Services" class="bg-red-1 w-7/12 border-t-8 border-l-8 -mt-44"/>
       </div>
       <div class="px-4 md:w-1/2 flex flex-col items-start">
         <div class="flex flex-col sm:flex-row items-center w-full">
@@ -91,7 +91,7 @@ export default function Home() {
   <div class="container px-4 py-8 mx-auto sm:px-20 mb:px-1 lg:px-40 flex flex-wrap">
       <div class="flex flex-wrap w-full flex-wrap items-center">
           <div class="flex flex-wrap items-center w-1/2">
-              <hr class="border-4 border-red-700 w-6/12 lg:w-1/12 mb-2 lg:m-4"/>
+              <hr class="border-4 border-red-1 w-6/12 lg:w-1/12 mb-2 lg:m-4"/>
               <h1 class="text-4xl font-medium lg:w-10/12 lg:mb-0 mb-4">First hand information to our operations</h1>
           </div>
           <p class="lg:pl-6 lg:w-1/2 mx-auto leading-relaxed text-gray-2 font-bold">As a client you will gain first hand access to day-today operations and daily occurrence reposts.</p>
@@ -107,7 +107,7 @@ export default function Home() {
                 <p class="leading-relaxed mb-3 text-gray-2 p-2">NFS marked vehicles, communication between residents & security staff and efficient use of technology</p>
             </div>
             <Link to="/contact">
-            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-700 hover:border-red-700">Read More</button>
+            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">Read More</button>
             </Link>
         </div>
     </div>
@@ -120,7 +120,7 @@ export default function Home() {
                 <p class="leading-relaxed mb-3 text-gray-2 px-5 py-2">Site surveillance, road flaggers, risk assessment, loss prevention and mobile patrols at your construction site.</p>
             </div>
             <Link to="/contact">
-            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-700 hover:border-red-700">Read More</button>
+            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">Read More</button>
             </Link>
         </div>
     </div>
@@ -133,7 +133,7 @@ export default function Home() {
                 <p class="leading-relaxed mb-3 text-gray-2 px-5 py-2">Fire Route watch, valid permit enforcement and deterrent against invalid/improper parking to ensure smoothness.</p>
             </div>
             <Link to="/contact">
-            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-700 hover:border-red-700">Read More</button>
+            <button className="w-1/2 p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">Read More</button>
             </Link>
         </div>
     </div>
@@ -154,30 +154,30 @@ export default function Home() {
     </div>
 </div>
 
-<div class="text-white bg-black body-font overflow-hidden px-4 py-8 mx-auto sm:px-20 mb:px-1 lg:px-40">
+<div class="text-white bg-black body-font overflow-hidden px-4 pt-12 mx-auto sm:px-20 mb:px-1 lg:px-40">
   <div class="container px-5 py-12 mx-auto">
-    <div class="flex flex-wrap -m-12">
-      <div class="w-6/12">
+    <div class="flex flex-wrap -m-12 items-end ">
+      <div class="w-6/12 mx-auto">
       <img src={section_img2} alt="Argus Security"/>
       </div>
-      <div class="md:w-1/2 flex flex-col items-start">
-        <h2 class="sm:text-5xl text-2xl title-font font-bold text-white mt-4 mb-4">Know your
+      <div class="md:w-1/2 p-4 flex flex-col items-start">
+        <h2 class="text-4xl font-medium lg:w-10/12 lg:mb-0 mb-4">Know your
           <br/>Partners-in-Protection</h2>
         <div class="flex items-center p-4">
-          <button class="px-6 py-2 bg-red-700 mx-2">Our Team</button>
-          <button class="px-6 py-2 bg-red-700 mx-2">Argus Hierarchy</button>
-          <button class="px-6 py-2 bg-red-700 mx-2">Contact</button>
+          <button class="px-6 py-2 bg-red-1 mx-2">Our Team</button>
+          <button class="px-6 py-2 bg-red-1 mx-2">Argus Hierarchy</button>
+          <button class="px-6 py-2 bg-red-1 mx-2">Contact Us</button>
         </div>
-        <p class="leading-relaxed mb-8">At Argus Security Services we maintain a prominent level of
+        <p class="leading-relaxed p-2 mb-8">At Argus Security Services we maintain a prominent level of
           training for our guards in response to our highly sensitive sites.
           We offer 24/7 fast and reliable security services. Qualifications
           of our Directors are as follows:</p>
         <div class="flex items-center flex-wrap pb-4 mb-4 mt-auto w-full">
           <div>
-            <img src={section4img} class="w-32" alt=""/>
+            <img src={section4img} class="w-32 ml-4" alt=""/>
           </div>
           <div>
-          <ul class="px-4">
+          <ul class="p-4">
             <li><span className="text-red-1">✓</span> Member of Law society of Ontario</li>
             <li><span className="text-red-1">✓</span> Police Foundation Certified</li>
             <li><span className="text-red-1">✓</span> 7 Years of Security Experience </li>
@@ -192,12 +192,12 @@ export default function Home() {
   </div>
 </div>
 
-      <div class="text-gray-600 body-font bg-red-700">
+      <div class="text-gray-600 body-font bg-red-1">
         <div class="container px-5 py-20 mx-auto">
           <div class="lg:w-10/12 flex flex-col sm:flex-row sm:items-center items-center mx-auto">
             <h1 class="flex-grow sm:pr-16 text-5xl font-medium title-font text-white">Covid 19 Procedures and much
               more to safeguard your business.</h1>
-            <button class="flex-shrink-0 font-bold text-red-700 bg-white border-0 py-5 px-10 focus:outline-none hover:bg-red-700 border-2 border-white hover:text-white rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
+            <button class="flex-shrink-0 font-bold text-red-1 bg-white border-0 py-5 px-10 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
           </div>
         </div>
       </div>
