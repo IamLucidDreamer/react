@@ -28,7 +28,7 @@ class Header extends Component {
       </div>
     </div>
   </div>
-  <div class="container bg-opacity-0 -mb-8 mx-auto flex flex-wrap flex-col md:flex-row items-center">
+  <div class="container bg-opacity-0 -mb-8 mx-auto flex flex-wrap flex-col md:flex-row items-center ">
     <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link to="/about">
       <a class="border border-gray-800 bg-gray-700 bg-opacity-50 text-l text-white px-16 py-2 hover:text-red-1">ABOUT</a>
