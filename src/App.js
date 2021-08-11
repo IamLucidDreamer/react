@@ -1,6 +1,5 @@
 import './App.css';
 
-import Hamburger from './MyComponents/Partials/Hamburger';
 import Header from './MyComponents/Partials/Header';
 import Footer from './MyComponents/Partials/Footer';
 import Home from './MyComponents/Main/Home';
