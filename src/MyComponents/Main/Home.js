@@ -154,7 +154,7 @@ export default function Home() {
     </div>
 </div>
 
-<div class="text-white bg-black body-font overflow-hidden px-4 pt-12 mx-auto sm:px-20 mb:px-1 lg:px-40">
+<div class="text-white body-font overflow-hidden px-4 pt-12 sm:px-20 mb:px-1 lg:px-40 bg-cover bg-knowbg">
   <div class="container px-5 py-12 mx-auto">
     <div class="flex flex-wrap -m-12 items-end ">
       <div class="w-6/12 mx-auto">

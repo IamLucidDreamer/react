@@ -7,7 +7,7 @@ class Header extends Component {
   render() {
     return (
 <div>
-<div class="w-full fixed">
+<div class="w-full fixed xl:relative">
   <Hamburger />
   <div class="text-white body-font bg-red-1 ">
     <div class="container w-9/12 mx-auto flex flex-wrap px-5 py-2 flex-col md:flex-row items-center">
