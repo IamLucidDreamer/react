@@ -19,7 +19,7 @@ export default function Home() {
       </div>
       <div class="container px-2 mx-auto sm:-mt-20">
           <div class="lg:w-9/12 flex flex-col sm:flex-row sm:items-center mx-auto">
-              <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">Call us <br/><span class="text-red-1 text-6xl font-bold">647.289.1070</span></h1>
+              <h1 class="flex-grow sm:pr-16 sm:text-4xl font-bold title-font text-gray-2">Call us <br/><span class="text-red-1 sm:text-6xl font-bold">647.289.1070</span></h1>
               <button class="flex-shrink-0 font-bold text-white text-sm bg-red-1 border-0 py-5 px-10 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 rounded-lg text-sm mt-10 sm:mt-0">DISCOVER MORE</button>
           </div>
       </div>

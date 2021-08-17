@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import RightNav from './../../MyComponents/Partials/Mobilenav.js';
+import RightNav from './Mobilenav.jsx';
 
 
 

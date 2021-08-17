@@ -33,8 +33,10 @@ const Mobilenav = ({ open }) => {
           <button class="w-full p-4 my-1 mx-auto rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">CONTACT</button>
         </Link>
 
-
-        <button class="w-11/12 md:w-7/12 lg:5/12 p-4 my-1 mx-auto rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">TECHNOLOGY</button>
+        <Link to="/technology" class="w-11/12 md:w-7/12 lg:5/12 mx-auto">
+          <button class="w-full p-4 my-1 mx-auto rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">TECHNOLOGY</button>
+        </Link>
+        
         <button class="w-11/12 md:w-7/12 lg:5/12 p-4 my-1 mx-auto rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">GET YOUR SECURITY GUARD LICENSE</button>
       </div>
         <h1 class="text-white text-center text-3xl my-4 sm:my-3 ">PORTALS</h1>
