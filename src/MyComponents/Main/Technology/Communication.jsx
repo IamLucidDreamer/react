@@ -39,7 +39,7 @@ class Communication extends Component {
                             administrators & clients can get quick answers to questions in one place and get
                             back on track easily.</p>
 
-                        <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">OTop-Tier, Canada-based Support Teams</h2>
+                        <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">Top-Tier, Canada-based Support Teams</h2>
                         <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">One critical part of customer service for any software company is providing
                             customers with support from a dedicated team of technical specialists. At Argus
                             Security, customer service is a top priority. That means a few things:</p>

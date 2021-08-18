@@ -39,7 +39,7 @@ export default function Home() {
         <h1 class="font-bold">Direct Updates Regarding Incidents</h1>
       </div>
     </div>
-  <div class="container px-4 py-8 mx-auto sm:px-20 mb:px-1 lg:px-40 bg-cover bg-no-repeat bg-mapbg">
+  <div class="container px-4 py-8 mx-auto sm:px-20 mb:px-1 lg:px-40 bg-contain bg-no-repeat bg-mapbg">
     <div class="flex flex-wrap items-start">
       <div class="items-end md:w-1/2 flex flex-col items-start ">
         <img src={section_img1} alt="Argus Security Services"/>
