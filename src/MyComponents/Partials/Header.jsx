@@ -1,10 +1,14 @@
-import React, { Component } from 'react'
+import React, {useState} from 'react';
 import logo from './../../argus website/PNG/Logo Vectors.png'
 import {Link} from 'react-router-dom'
 import Hamburger from './Hamburger.jsx';
+import LogIn from '../User/LogIn';
 
-class Header extends Component {
-  render() {
+const Header = () => {
+  const [open, setOpen] = useState(false)
+
+
+  {
     return (
 <div>
 <div class="w-full">
@@ -24,7 +28,7 @@ class Header extends Component {
         </a>
       <div class="hidden xl:block lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
         <nav class="flex lg:w-full flex-wrap items-center text-base md:ml-auto">
-          <Link to="/login">
+          <Link open={open} onClick={() => setOpen(!open)}>
           <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Student Portal</a>
           </Link>
           <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Client Portal</a>
@@ -34,7 +38,7 @@ class Header extends Component {
     </div>
   </div> 
 </div>
-
+<LogIn open={open}/>
 </div>
     )
   }

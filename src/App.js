@@ -19,6 +19,7 @@ import ReportsData from './MyComponents/Main/Technology/ReportsData.jsx';
 import Communication from './MyComponents/Main/Technology/Communication.jsx';
 import MobilePatrols from './MyComponents/Main/Technology/MobilePatrols.jsx';
 import OrganisationStructure from './MyComponents/Main/OrganisationStructure.jsx';
+import HarassementPolicy from './MyComponents/Main/HarassementPolicy';
 
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
@@ -50,6 +51,7 @@ function App() {
             <Route path="/communication" component={Communication}/>
             <Route path="/mobilepatrols" component={MobilePatrols}/>
             <Route path="/organisationstructure" component={OrganisationStructure}/>
+            <Route path="/harassementpolicy" component={HarassementPolicy}/>
         
           </switch>
         <Footer />
