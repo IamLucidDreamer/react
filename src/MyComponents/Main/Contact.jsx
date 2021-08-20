@@ -54,7 +54,7 @@ class Contact extends Component {
                 </div>
 
                 <div className="overflow-hidden bg-no-repeat bg-mapbg">
-                    <div className="container px-4 py-6 mx-auto sm:px-20 mb:px-26">
+                    <div className="container px-4 py-6 mx-auto sm:px-20 mb:px-26 lg:px-40 xl:px-48">
                         <img src={fleet} alt="Security Cars"/>
                         <div className="flex flex-wrap my-12">
                             <div className="p-2 md:w-1/4 flex flex-col items-start text-l font-medium text-gray-2">

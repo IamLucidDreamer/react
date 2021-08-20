@@ -32,7 +32,7 @@ class Footer extends Component {
 
 
 <div className="text-white text-xl md:text-sm  body-font bg-center bg-no-repeat bg-cover bg-footer">
-  <div className="container px-4 sm:px-8 lg:px-16 xl:px-24 pb-12 mx-auto">
+  <div className="container px-4 sm:px-8 lg:px-24 xl:px-48 pb-12 mx-auto">
     <div className="flex flex-col md:flex-row md:text-left text-center order-first items-start">
       <div className="w-3/4 flex flex-wrap md:text-left text-center order-first mx-auto">
         <div className="lg:w-1/3 w-full px-4 pt-4">

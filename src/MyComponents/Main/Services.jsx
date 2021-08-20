@@ -14,7 +14,7 @@ class Services extends Component {
                     </div>
                 </div>
 
-                <div class="px-2 sm:px-40 bg-no-repeat bg-mapbg">
+                <div class="px-2 sm:px-40 lg:px-40 xl:px-48 bg-no-repeat bg-mapbg">
                     
                     <div class="container px-5 py-12 sm:py-20 mx-auto flex flex-wrap">
                         <div class="flex flex-wrap w-full flex-wrap items-center">

@@ -51,7 +51,7 @@ class SideBar extends Component {
                             <Link to="/jobs"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Employment</h1></Link>
                             <Link to="/training"><h1 className="rounded-lg py-4 pl-8 hover:bg-red-1 hover:text-white hover:rounded-md">➔ Security Guard License</h1></Link>
                         </div>
-                        <div className="flex flex-col items-center text-center mx-auto p-4 bg-cover bg-no-repeat bg-callus mb-8">
+                        <div className="flex flex-col items-center text-center mx-auto p-4 bg-gray-200 mb-8">
                             <svg class="w-12" xmlns="http://www.w3.org/2000/svg" width="85.04" height="85.003" viewBox="0 0 85.04 85.003">
                                 <g id="Phone_logo" data-name="Phone logo" transform="translate(-36.779 -122.722)">
                                     <g id="Group_7" data-name="Group 7" transform="translate(36.779 122.722)">
@@ -59,9 +59,10 @@ class SideBar extends Component {
                                     </g>
                                 </g>
                             </svg>
-                            <h1 className="text-l font-bold text-white p-2">Professional Help to get back your peace of mind</h1>
+                            <h1 className="text-l font-bold text-gray-2 p-2">Professional Help to get back your peace of mind</h1>
                             <p className="text-3xl text-red-1 font-bold p-2">647-289-1070</p>
-                            <p className="text-gray-2 p-2">Confidentiality<br/>Guaranteed</p>
+                            <p className="text-gray-2 p-2 mb-2">Confidentiality Guaranteed</p>
+                            <a className="w-full text-xl p-4 rounded-lg border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700" href="tel:6472891070">Call Us</a>
                         </div>
                         <form className="bg-gray-200 p-6" onSubmit={this.handleSubmit}>
                             <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-700" type="name" placeholder="Your Name" value={this.state.name} onChange={this.handleNameChange}/>
