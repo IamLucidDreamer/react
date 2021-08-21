@@ -14,8 +14,8 @@ const Header = () => {
 <div class="w-full">
   <Hamburger />
   <div class="text-white body-font bg-red-1">
-    <div class="container w-9/12 xl:7/12 mx-auto flex flex-wrap px-6 pt-2 pb-4 flex-col md:flex-row items-center">
-      <nav class="hidden xl:block flex lg:w-2/5 flex-wrap items-center text-base md:ml-auto">
+    <div class="container w-9/12 mx-auto flex flex-wrap pt-2 pb-4 flex-col md:flex-row items-center">
+      <nav class="hidden xl:block flex lg:w-2/5 flex-wrap items-center text-xl md:ml-auto justify-between">
         <Link to="/technology">
           <a class="mr-5 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Technology</a>
         </Link>

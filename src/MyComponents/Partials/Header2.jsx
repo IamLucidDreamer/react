@@ -11,23 +11,23 @@ class Header extends Component {
   <div class="hidden xl:block xl:sticky xl:top-0 container bg-opacity-0 -mb-9 mx-auto flex flex-wrap flex-col md:flex-row items-center">
     <nav class="border-collapse md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
       <Link to="/about">
-      <a class="text-l text-white px-16 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">ABOUT</a>
+      <a class="text-l text-white px-16 xl:px-20 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">ABOUT</a>
       </Link>
 
       <Link to="/services">
-      <a class="text-l text-white px-16 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">SERVICES</a>
+      <a class="text-l text-white px-16 xl:px-20 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">SERVICES</a>
       </Link>
 
       <Link to="/jobs">
-      <a class="text-l text-white px-20 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">JOBS</a>
+      <a class="text-l text-white px-20 xl:px-24 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">JOBS</a>
       </Link>
       
       <Link to="/training">
-      <a class="text-l text-white px-16 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">TRAINING</a>
+      <a class="text-l text-white px-16 xl:px-20 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">TRAINING</a>
       </Link>
 
       <Link to="/contact">
-      <a class="text-l text-white px-16 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">CONTACT</a>
+      <a class="text-l text-white px-16 xl:px-20 py-3 bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">CONTACT</a>
       </Link>
     
     </nav>
