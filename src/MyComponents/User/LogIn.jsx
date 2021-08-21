@@ -5,11 +5,11 @@ import {Link} from 'react-router-dom'
 const LogIn = ({ open }) => {
     return (
         
-        <div class={open ? "block fixed" : "hidden"}>
-        <div className="p-20 h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center bg-hero">
+        <div class={open ? "block fixed top-0 z-100" : "hidden"}>
+        <div className="p-20 h-screen w-screen flex flex-col-reverse md:flex-row items-center justify-center bg-black bg-opacity-80">
             <div className="content text-3xl text-center md:text-left lg:w-2/3">
-              <h1 className="text-5xl text-gray-700 font-bold">Argus Security</h1>
-              <p>Your partners in protection</p>
+              <h1 className="text-5xl text-white font-bold">Argus Security</h1>
+              <p className="text-gray-200">Your partners in protection</p>
             </div>
             <div className="container mx-auto flex flex-col items-center">
                 <form className="shadow-lg w-96 p-4 flex flex-col bg-white rounded-lg items-center justify-center" >
