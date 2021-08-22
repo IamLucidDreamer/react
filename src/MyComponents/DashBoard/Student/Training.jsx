@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import SideNav from './Components/SideNav'
 import ProfileBar from './Components/ProfileBar'
 
-export default function Home() {
+export default function Training() {
     return (
         <div className="w-full flex flew-col md:flex-row">
             <div className="w-2/12 bg-red-1">

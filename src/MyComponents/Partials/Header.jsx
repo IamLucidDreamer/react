@@ -31,7 +31,9 @@ const Header = () => {
           <Link open={open} onClick={() => setOpen(!open)}>
           <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Student Portal</a>
           </Link>
+          <Link to="/dashboard/student/home">
           <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Client Portal</a>
+          </Link>
           <a class="px-4 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Employee Portal</a>
         </nav>
       </div>
