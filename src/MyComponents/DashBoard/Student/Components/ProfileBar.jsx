@@ -10,8 +10,8 @@ export default function ProfileBar() {
       <div className="text-center">
         <img
           src={ProfilePicture}
-          alt="Profile Picture"
-          className="mx-auto p-4 m-4 rounded-lg"
+          alt="Profile"
+          className="mx-auto w-32 h-32 m-4 rounded-full border-4 border-red-1"
         />
         <h1 className="title-font font-bold text-gray-900">Name Here</h1>
         <p className="text-sm title-font text-gray-2">Profile ID</p>
