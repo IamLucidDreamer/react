@@ -2,7 +2,7 @@ import React from "react";
 
 export default function TopElement() {
   return (
-    <div className="w-full p-8">
+    <div className="w-full px-8 pt-8">
       <div className="flex items-center">
         <h1 className="title-font font-bold text-gray-900 px-2">Date</h1>
         <svg

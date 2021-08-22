@@ -24,6 +24,8 @@ import StudentHome from "./MyComponents/DashBoard/Student/Home.jsx";
 import StudentCalender from  "./MyComponents/DashBoard/Student/Calender.jsx";
 import StudentCourse from "./MyComponents/DashBoard/Student/PurchaseCourse.jsx";
 import StudentTraining from "./MyComponents/DashBoard/Student/Training"
+import StudentContact from "./MyComponents/DashBoard/Student/Contact"
+import Service from "./MyComponents/Components/Service";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -31,6 +33,9 @@ function App() {
   return (
     <Router>
       <div className="App">
+        <Header/>
+        <Header2 />
+        <Service />
         <switch>
           <Route path="/react" exact component={Home} />
           <Route path="/about" exact component={About} />
@@ -54,6 +59,7 @@ function App() {
           <Route path="/dashboard/student/calender" component={StudentCalender} />
           <Route path="/dashboard/student/training" component={StudentTraining} />
           <Route path="/dashboard/student/course" component={StudentCourse} />
+          <Route path="/dashboard/student/contact" component={StudentContact} />
         </switch>
         <Footer />
       </div>
