@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import about_image from './../../argus website/PNG/Video.png'
-import { Link } from 'react-router-dom'
 import SideBar from './../Components/SideBar.jsx'
+import AboutPageButtons from '../Components/AboutPageButtons'
 
 class About extends Component {
     
@@ -36,9 +36,7 @@ class About extends Component {
                             Argus Security has been successfully providing premium Security, Loss
                             Prevention, and Investigation.</p>
                         
-                        <p className="p-4 mb-2 border-2 border-gray-200 text-l text-gray-2 w-full mt-4"><span className="text-red-700 font-bold">1.</span> ORGANIZATION STRUCTURE</p>
-                        <p className="p-4 mb-2 border-2 border-gray-200 text-l text-gray-2 w-full"><span className="text-red-700 font-bold">2.</span> HARASSMENT POLICY</p>
-                        <p className="p-4 mb-2 border-2 border-gray-200 text-l text-gray-2 w-full"><span className="text-red-700 font-bold">3.</span> PERSONELL</p>
+                        <AboutPageButtons />
                         
                         <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">Why us?</h2>
                         <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">Our mission is to provide great customer experience and superior protection

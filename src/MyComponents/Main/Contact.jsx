@@ -78,7 +78,7 @@ class Contact extends Component {
                                 {/* <img src={phone_logo} alt="Phone Logo" /> */}
                                 <p>350 Rutherford Road South Brampton ON L6W-4N6 Suite 210 Plaza 2</p>
                             </div>
-                            <form className="bg-gray-200 p-6" onSubmit={this.handleSubmit}>
+                            <form className="bg-gray-200 p-6 w-3/4" onSubmit={this.handleSubmit}>
                                 <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="name" placeholder="Your Name" value={this.state.name} onChange={this.handleNameChange}/>
                                 <input className="w-full mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="telephone" placeholder="Phone Number" value={this.state.phone} onChange={this.handlePhoneChange}/>
                                 <textarea className="w-full h-56 mb-3 py-5 px-4 focus:outline-none focus:ring-1 ring-red-1" type="text" placeholder="Write Message" value={this.state.message} onChange={this.handleMessageChange}/>
