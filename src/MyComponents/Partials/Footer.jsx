@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import logo from './../../argus website/PNG/Logo Vectors.png'
+import Logo from "./../../argus website/SVG/logosvg.svg"
 import { Link } from 'react-router-dom'
 
 class Footer extends Component {
@@ -32,11 +32,11 @@ class Footer extends Component {
 
 
 <div className="text-white text-xl md:text-sm  body-font bg-center bg-no-repeat bg-cover bg-footer">
-  <div className="container px-4 sm:px-8 lg:px-24 xl:px-48 pb-12 mx-auto">
+  <div className="container px-2 sm:px-8 lg:px-24 xl:px-48 pb-12 mx-auto">
     <div className="flex flex-col md:flex-row md:text-left text-center order-first items-start">
       <div className="w-3/4 flex flex-wrap md:text-left text-center order-first mx-auto">
         <div className="lg:w-1/3 w-full px-4 pt-4">
-          <img className="w-28 mx-auto md:mx-0" src={logo} alt="Logo of Argus Security"/>
+        <img src={Logo} className="w-24" alt="Logo"/>
           <p className="text-white">Your protection is Our Mission. Proudly serving business and residential sector in Ontario.</p>
           <hr className="border-1 border-gray-600 w-11/12 my-3" />
           <a href="tel:6472891070" className="px-2">
@@ -131,7 +131,7 @@ class Footer extends Component {
       </div>
   </div>
   <div className="border-t-2">
-    <div className="container px-20 py-6 mx-auto flex items-center sm:flex-row flex-col">
+    <div className="container px-4 md:px-16 lg:px-28 xl:px-44 py-6 mx-auto flex items-center sm:flex-row flex-col">
       <p className="text-xl text-white sm:ml-6 sm:mt-0 mt-4">© Copyright 2021 by Argus Security Services Corp.</p>
     </div>
   </div>

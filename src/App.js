@@ -21,7 +21,7 @@ import OrganisationStructure from "./MyComponents/Main/OrganisationStructure.jsx
 import HarassementPolicy from "./MyComponents/Main/HarassementPolicy";
 import Personell from "./MyComponents/Main/Personell";
 import StudentHome from "./MyComponents/DashBoard/Student/Home.jsx";
-import StudentCalender from  "./MyComponents/DashBoard/Student/Calender.jsx";
+import StudentCalendar from  "./MyComponents/DashBoard/Student/Calendar.jsx";
 import StudentCourse from "./MyComponents/DashBoard/Student/PurchaseCourse.jsx";
 import StudentTraining from "./MyComponents/DashBoard/Student/Training"
 import StudentContact from "./MyComponents/DashBoard/Student/Contact"
@@ -33,9 +33,6 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Header/>
-        <Header2 />
-        <Service />
         <switch>
           <Route path="/react" exact component={Home} />
           <Route path="/about" exact component={About} />
@@ -56,7 +53,7 @@ function App() {
           <Route path="/harassementpolicy" component={HarassementPolicy} />
           <Route path="/personell" component={Personell} />
           <Route path="/dashboard/student/home" component={StudentHome} />
-          <Route path="/dashboard/student/calender" component={StudentCalender} />
+          <Route path="/dashboard/student/calendar" component={StudentCalendar} />
           <Route path="/dashboard/student/training" component={StudentTraining} />
           <Route path="/dashboard/student/course" component={StudentCourse} />
           <Route path="/dashboard/student/contact" component={StudentContact} />

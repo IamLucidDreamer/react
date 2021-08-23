@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './../../argus website/PNG/Logo Vectors.png'
+import Logo from "./../../argus website/SVG/logosvg.svg"
 import {Link} from 'react-router-dom'
 import Hamburger from './Hamburger.jsx';
 import LogIn from '../User/LogIn';
@@ -23,7 +23,7 @@ const Header = () => {
       </nav>
         <a class="block flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
         <Link to="/">
-          <img src={logo} alt="Logo of Argus Security Services" class="w-24 shadow-lg"/>
+          <img src={Logo} className="w-24" alt="Logo"/>
         </Link>
         </a>
       <div class="hidden xl:block lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">

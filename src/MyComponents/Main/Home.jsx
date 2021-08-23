@@ -5,10 +5,14 @@ import section_img2 from "./../../argus website/PNG/sdm.png";
 import section3img from "./../../argus website/PNG/Group -5.png";
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import image1 from "./../../argus website/PNG/raw-2_edited.png";
+import Header from "./../Partials/Header"
+import Header2 from "./../Partials/Header2"
 
 export default function Home() {
   return (
     <div>
+      <Header />
+      <Header2 />
       <div class="text-gray-600 body-font bg-cover bg-no-repeat bg-center bg-hero">
         <div class="container mx-auto justify-center items-center">
           <div class=" items-center text-center">
