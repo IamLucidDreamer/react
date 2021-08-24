@@ -32,11 +32,11 @@ class Footer extends Component {
 
 
 <div className="text-white text-xl md:text-sm  body-font bg-center bg-no-repeat bg-cover bg-footer">
-  <div className="container px-2 sm:px-8 lg:px-24 xl:px-48 pb-12 mx-auto">
+  <div className="container px-2 sm:px-8 lg:px-24 xl:px-36 pb-12 mx-auto">
     <div className="flex flex-col md:flex-row md:text-left text-center order-first items-start">
       <div className="w-3/4 flex flex-wrap md:text-left text-center order-first mx-auto">
         <div className="lg:w-1/3 w-full px-4 pt-4">
-        <img src={Logo} className="w-24" alt="Logo"/>
+        <img src={Logo} className="w-24 mx-auto md:mx-0 my-2" alt="Logo "/>
           <p className="text-white">Your protection is Our Mission. Proudly serving business and residential sector in Ontario.</p>
           <hr className="border-1 border-gray-600 w-11/12 my-3" />
           <a href="tel:6472891070" className="px-2">
@@ -54,31 +54,31 @@ class Footer extends Component {
           <h2 className="title-font font-medium text-white tracking-widest text-2xl md:text-sm mb-3">EXPLORE</h2>
           <nav className="list-none mb-10">
             <li> <Link to="/about">
-              <a className="text-white hover:text-red-1">➔ About</a>
+              <button className="text-white hover:text-red-1">➔ About</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Our Services</a>
+              <button className="text-white hover:text-red-1">➔ Our Services</button>
             </Link> </li>
             <li> <Link to="/">
-              <a className="text-white hover:text-red-1">➔ Covid-19 Plan</a>
+              <button className="text-white hover:text-red-1">➔ Covid-19 Plan</button>
             </Link> </li>
             <li> <Link to="/">
-              <a className="text-white hover:text-red-1">➔ Organization Structure</a>
+              <button className="text-white hover:text-red-1">➔ Organization Structure</button>
             </Link> </li>
             <li> <Link to="/jobs">
-              <a className="text-white hover:text-red-1">➔ Jobs</a>
+              <button className="text-white hover:text-red-1">➔ Jobs</button>
             </Link> </li>
             <li> <Link to="/">
-              <a className="text-white hover:text-red-1">➔ Personnel</a>
+              <button className="text-white hover:text-red-1">➔ Personnel</button>
             </Link> </li>
             <li> <Link to="/training">
-              <a className="text-white hover:text-red-1">➔ Training</a>
+              <button className="text-white hover:text-red-1">➔ Training</button>
             </Link> </li>
             <li> <Link to="/contact">
-              <a className="text-white hover:text-red-1">➔ Contact Us</a>
+              <button className="text-white hover:text-red-1">➔ Contact Us</button>
             </Link> </li>
             <li> <Link to="/technology">
-              <a className="text-white hover:text-red-1">➔ Technology</a>
+              <button className="text-white hover:text-red-1">➔ Technology</button>
             </Link> </li>
           </nav>
         </div>
@@ -86,31 +86,31 @@ class Footer extends Component {
           <h2 className="title-font font-medium text-white tracking-widest text-2xl md:text-sm mb-3">SERVICES</h2>
           <nav className="list-none mb-10">
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Gated Community Security</a>
+              <button className="text-white hover:text-red-1">➔ Gated Community Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Construction Security</a>
+              <button className="text-white hover:text-red-1">➔ Construction Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Parking Enforcement</a>
+              <button className="text-white hover:text-red-1">➔ Parking Enforcement</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Residential Security</a>
+              <button className="text-white hover:text-red-1">➔ Residential Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Corporate Security</a>
+              <button className="text-white hover:text-red-1">➔ Corporate Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Industrial Security</a>
+              <button className="text-white hover:text-red-1">➔ Industrial Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Private Security</a>
+              <button className="text-white hover:text-red-1">➔ Private Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Mobile Security</a>
+              <button className="text-white hover:text-red-1">➔ Mobile Security</button>
             </Link> </li>
             <li> <Link to="/services">
-              <a className="text-white hover:text-red-1">➔ Event Security</a>
+              <button className="text-white hover:text-red-1">➔ Event Security</button>
             </Link> </li>
           </nav>
         </div>
