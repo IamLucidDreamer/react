@@ -2,12 +2,18 @@ import React, { Component } from 'react'
 import about_image from './../../argus website/PNG/Video.png'
 import SideBar from './../Components/SideBar.jsx'
 import AboutPageButtons from '../Components/AboutPageButtons'
+import Stickynav from '../Partials/Stickynav'
 
 class About extends Component {
     
     render() {
         return (
+            
+            
             <div>
+
+            <Stickynav />
+
                 <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-aboutbg">
                     <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
                         <div className="text-center lg:w-2/3 w-full">
@@ -15,6 +21,7 @@ class About extends Component {
                         </div>
                     </div>
                 </div>
+                
 
                 <div className="container px-4 py-6 mx-auto sm:px-20 mb:px-1 lg:px-40 xl:px-48 bg-no-repeat bg-mapbg">
                 <div className="flex flex-wrap my-12">
@@ -37,7 +44,6 @@ class About extends Component {
                             Prevention, and Investigation.</p>
                         
                         <AboutPageButtons />
-                        
                         <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">Why us?</h2>
                         <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">Our mission is to provide great customer experience and superior protection
                             service. Our values are to deliver our service with honor, integrity, and dignity.

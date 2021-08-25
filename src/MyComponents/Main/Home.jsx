@@ -14,12 +14,14 @@ import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
 import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png"
 import Header from "./../Partials/Header";
 import Header2 from "./../Partials/Header2";
+import Stickynav from "./../Partials/Stickynav"
 
 export default function Home() {
   return (
     <div>
       <Header />
       <Header2 />
+      <Stickynav/>
       {/* Section 1 */}
       <div className="bg-cover bg-center bg-no-repeat bg-hero">
         <p className="py-24 sm:py-72"></p>
