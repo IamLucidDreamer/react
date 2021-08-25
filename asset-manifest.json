@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react/static/css/main.776eb2cd.chunk.css",
-    "main.js": "/react/static/js/main.11696a5a.chunk.js",
-    "main.js.map": "/react/static/js/main.11696a5a.chunk.js.map",
+    "main.js": "/react/static/js/main.81f32f2c.chunk.js",
+    "main.js.map": "/react/static/js/main.81f32f2c.chunk.js.map",
     "runtime-main.js": "/react/static/js/runtime-main.68a4fcfb.js",
     "runtime-main.js.map": "/react/static/js/runtime-main.68a4fcfb.js.map",
     "static/js/2.4605ea79.chunk.js": "/react/static/js/2.4605ea79.chunk.js",
@@ -17,7 +17,7 @@
     "static/media/3.Charlie.141f6881.png": "/react/static/media/3.Charlie.141f6881.png",
     "static/media/6. Sponsor 1.9668d42b.png": "/react/static/media/6. Sponsor 1.9668d42b.png",
     "static/media/7. Sponsor 2.b4ec8ed2.png": "/react/static/media/7. Sponsor 2.b4ec8ed2.png",
-    "static/media/8. Sud.3eae9083.jpg": "/react/static/media/8. Sud.3eae9083.jpg",
+    "static/media/8. Sud.2667a034.png": "/react/static/media/8. Sud.2667a034.png",
     "static/media/index.css": "/react/static/media/World Map.0b52b893.png",
     "static/media/Group -5.55cf8e03.png": "/react/static/media/Group -5.55cf8e03.png",
     "static/media/IMG_0118.b905a768.png": "/react/static/media/IMG_0118.b905a768.png",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.68a4fcfb.js",
     "static/js/2.4605ea79.chunk.js",
     "static/css/main.776eb2cd.chunk.css",
-    "static/js/main.11696a5a.chunk.js"
+    "static/js/main.81f32f2c.chunk.js"
   ]
 }
