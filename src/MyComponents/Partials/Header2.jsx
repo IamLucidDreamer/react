@@ -4,6 +4,9 @@ import {Link} from 'react-router-dom'
 import Hamburger from './../../MyComponents/Partials/Hamburger.jsx';
 
 class Header extends Component {
+
+  Header
+
   render() {
     return (
 

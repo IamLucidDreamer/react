@@ -26,13 +26,16 @@ import StudentCourse from "./MyComponents/DashBoard/Student/PurchaseCourse.jsx";
 import StudentTraining from "./MyComponents/DashBoard/Student/Training"
 import StudentContact from "./MyComponents/DashBoard/Student/Contact"
 import Service from "./MyComponents/Components/Service";
+import ScrollToTop from "./Functions/ScrollToTop";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <ScrollToTop />
         <switch>
           <Route path="/react" exact component={Home} />
           <Route path="/about" exact component={About} />

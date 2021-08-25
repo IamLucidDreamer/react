@@ -5,7 +5,6 @@ import Hamburger from './Hamburger'
 
 const Mobilenav = ({ open }) => {
   return (
-<div class={open ? "block" : "hidden"}>
 <div class= {open ? "w-full h-screen bg-red-1 overflow-scroll " : "w-full h-screen z-30 bg-red-1 overflow-scroll "}>
   <div class="w-full">
     <div class="w-full">
@@ -50,7 +49,7 @@ const Mobilenav = ({ open }) => {
     </div>
   </div>  
 </div>
-</div>
+
     )
   }
 export default Mobilenav

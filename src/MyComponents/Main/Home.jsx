@@ -8,6 +8,10 @@ import section6 from './../../argus website/PNG/sdm.png'
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import section5 from "./../../argus website/PNG/0000000.png"
 import image1 from "./../../argus website/PNG/raw-2_edited.png";
+import empofmonth from "./../../argus website/PNG/8. Sud.jpg";
+import testimonial from "./../../argus website/PNG/IMG_0118.png";
+import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
+import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png"
 import Header from "./../Partials/Header";
 import Header2 from "./../Partials/Header2";
 
@@ -167,7 +171,7 @@ export default function Home() {
             <div class="w-full flex flex-col md:flex-row items-center">
               <div class="flex flex-col md:flex-row items-center pr-24">
                 <span class="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
-                <h1 class="text-4xl font-bold text-gray-3 pb-10 ">
+                <h1 class="text-4xl font-bold text-gray-3 pb-10 md:pb-0 ">
                 Firsthand information to our operations
                 </h1>
               </div>
@@ -363,6 +367,125 @@ export default function Home() {
           </div>
 
       {/* Section 8 Client Testimonial */}
+      <div class="container px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
+        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
+        <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+          <h1 class="text-4xl font-medium title-font text-gray-900">Client Testimonials</h1>
+        </div>
+        <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-white p-8 rounded">
+            <img
+                    src={quotes}
+                    alt=""
+                    className="inline-block text-red-1 mb-4"
+                  />
+              <p class="leading-relaxed mb-6">Argus helped me find my child in a crowded
+                mall. I would be eternally thankful.</p>
+              <a class="inline-flex items-center">
+                <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-red-1">Tanbir Singh</span>
+                  <span class="text-black text-sm">The Sidhu Estates</span>
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="p-4 md:w-1/2 w-full">
+            <div class="h-full bg-white p-8 rounded">
+            <img
+                    src={quotes}
+                    alt=""
+                    className="inline-block text-red-1 mb-4"
+                  />
+              <p class="leading-relaxed mb-6">Argus helped me find my child in a crowded
+                mall. I would be eternally thankful.</p>
+              <a class="inline-flex items-center">
+                <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
+                <span class="flex-grow flex flex-col pl-4">
+                  <span class="title-font font-medium text-red-1">Tanbir Singh</span>
+                  <span class="text-black text-sm">The Sidhu Estates</span>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Section 9 Employee of the Month */}
+      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-40 bg-cover bg-no-repeat bg-empofmon">
+        <div class="flex flex-wrap items-start">
+          <div class="md:px-20 md:py-12 w-full md:w-1/2 flex flex-col items-start">
+            <div class="flex flex-col md:flex-row items-center w-full mb-4">
+              <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+              <h1 class="text-4xl font-bold text-gray-3 mb-4">
+              Employee of the <br/>Month 
+              </h1>
+            </div>
+            <p className="leading-relaxed text-l text-gray-2 mb-8">
+              <span className="text-red-1">Ramanjeet Singh Sran </span>embodies the core values of Argus
+              and has repeatedly gone above and beyond the call of duty
+              to provide reliable customer service.
+            </p>
+            <ul class="text-gray-3 font-bold text-l mb-8">
+                <li className="py-1">
+                  <span className="text-red-1">✓</span> Driven
+                </li>
+                <li className="py-1">
+                  <span className="text-red-1">✓</span> Hard Working
+                </li>
+                <li className="py-1">
+                  <span className="text-red-1">✓</span> Reliable
+                </li>
+            </ul>
+            <div>
+              <div class="container px-2 py-2 mx-auto">
+                <div class="w-full text-left">
+                  <img
+                    src={quotes}
+                    alt=""
+                    className="inline-block text-red-1 mb-4"
+                  />
+                  <p class="leading-relaxed text-l font-medium text-gray-3 bg-gray-200 p-3 rounded-lg shadow-lg -mt-2">
+                    They say 'Devil' works hard, Raman
+                    works harder. He is an inspiration to us all.
+                  </p>
+                  <div class="py-6 flex items-center">
+                    <img
+                      src={section4img}
+                      class="w-20 h-20 p-1 border border-red-1"
+                      alt=""
+                    />
+                    <div class="mx-auto">
+                      <img src={signature} alt="" />
+                      <p class="text-gray-500">CEO & CO FOUNDER</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="items-end w-full md:w-1/2 lg:pl-12">
+            <img
+              src={empofmonth}
+              alt="Argus Security Services"
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Section 10 Sponsors */}
+      <div class="container px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
+        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
+          <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+          <h1 class="text-5xl font-bold text-gray-900">Sponsors</h1>
+        </div>
+        <div className="flex flex-wrap mx-auto">
+          <img src={sponsor2} alt="" className="w-1/3 "/>
+          <img src={sponsor1} alt="" className="w-1/3 "/>
+          <img src={sponsor1} alt="" className="w-1/3 "/>
+        </div>
+      </div>
 
 
     </div>
