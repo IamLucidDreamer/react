@@ -1,49 +1,42 @@
 import React, {useState} from 'react';
 import Logo from "./../../argus website/SVG/logosvg.svg"
 import {Link} from 'react-router-dom'
-import Hamburger from './Hamburger.jsx';
 import LogIn from '../User/LogIn';
 
-const Header = () => {
+
+export default function Header() {
   const [open, setOpen] = useState(false)
-
-
-  {
-    return (
-<div>
-<div class="w-full">
-  <Hamburger />
-  <div class="text-white body-font bg-red-1">
-    <div class="container w-9/12 mx-auto flex flex-wrap pt-2 pb-4 flex-col md:flex-row items-center">
-      <nav class="hidden xl:block flex lg:w-2/5 flex-wrap items-center text-xl md:ml-auto justify-between">
-        <Link to="/technology">
-          <a class="mr-5 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Technology</a>
-        </Link>
-        <a class="mr-5 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Get Your Security Guard License</a>
-      </nav>
-        <a class="block flex order-first lg:order-none lg:w-1/5 title-font font-medium items-center text-gray-900 lg:items-center lg:justify-center mb-4 md:mb-0">
-        <Link to="/">
-          <img src={Logo} className="w-24" alt="Logo"/>
-        </Link>
-        </a>
-      <div class="hidden xl:block lg:w-2/5 inline-flex lg:justify-end ml-5 lg:ml-0">
-        <nav class="flex lg:w-full flex-wrap items-center text-base md:ml-auto">
-          <Link open={open} onClick={() => setOpen(!open)}>
-          <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Student Portal</a>
+  
+  return (
+    <div className="">
+      <div className="hidden lg:block px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 bg-red-1 shadow-2xl text-sm">
+        <div className="flex flex-row items-center mx-auto justify-between">
+          <nav className="flex flex-row items-center">
+              <Link to="/technology" className="text-white border-2 rounded px-8 py-3 mr-3.5 hover:bg-white hover:text-red-1">
+                Technology
+              </Link>
+              <Link to="/Training" className="text-white border-2 rounded px-8 py-3 hover:bg-white hover:text-red-1">
+                Get Your Security Guard License
+              </Link>
+          </nav>
+          <Link to="/">
+            <img src={Logo} alt="Logo of Argus Security" className="w-24 my-2"/>
           </Link>
-          <Link to="/dashboard/student/home">
-          <a class="mr-3 px-3 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Client Portal</a>
-          </Link>
-          <a class="px-4 py-2 border-2 text-sm text-white border-white rounded hover:text-red-700 hover:bg-white">Employee Portal</a>
-        </nav>
+          <nav className="flex flex-row items-center">
+            <Link open={open} onClick={() => setOpen(!open)} className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
+              Student Portal
+            </Link>
+            <Link to="/training" className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
+              Client Portal
+            </Link>
+            <Link to="/training" className="text-white border-2 rounded px-3 py-3 hover:bg-white hover:text-red-1">
+              Employee Portal
+            </Link>
+          </nav>
+        </div>
       </div>
+      <LogIn open={open}/>
     </div>
-  </div> 
-</div>
-<LogIn open={open}/>
-</div>
-    )
-  }
+  )
 }
 
-export default Header

@@ -8,7 +8,7 @@ import section6 from './../../argus website/PNG/sdm.png'
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import section5 from "./../../argus website/PNG/0000000.png"
 import image1 from "./../../argus website/PNG/raw-2_edited.png";
-import empofmonth from "./../../argus website/PNG/8. Sud.jpg";
+import empofmonth from "./../../argus website/PNG/8. Sud.png";
 import testimonial from "./../../argus website/PNG/IMG_0118.png";
 import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
 import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png"
@@ -20,14 +20,13 @@ export default function Home() {
     <div>
       <Header />
       <Header2 />
-
       {/* Section 1 */}
       <div className="bg-cover bg-center bg-no-repeat bg-hero">
         <p className="py-24 sm:py-72"></p>
       </div>
 
       {/* Section 2 CAll Us */}
-      <div class="container px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 mx-auto sm:-mt-36">
+      <div class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36">
         <div class="flex flex-col sm:flex-row sm:items-end mx-auto">
           <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">
             Call us <br />
@@ -367,14 +366,14 @@ export default function Home() {
           </div>
 
       {/* Section 8 Client Testimonial */}
-      <div class="container px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
+      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 bg-gray-200">
         <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
         <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
           <h1 class="text-4xl font-medium title-font text-gray-900">Client Testimonials</h1>
         </div>
         <div class="flex flex-wrap -m-4">
         <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 rounded">
+            <div class="h-full bg-white p-8 shadow-2xl">
             <img
                     src={quotes}
                     alt=""
@@ -392,7 +391,7 @@ export default function Home() {
             </div>
           </div>
           <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 rounded">
+            <div class="h-full bg-white p-8 shadow-2xl">
             <img
                     src={quotes}
                     alt=""
@@ -469,13 +468,14 @@ export default function Home() {
             <img
               src={empofmonth}
               alt="Argus Security Services"
+              class="w-full"
             />
           </div>
         </div>
       </div>
 
       {/* Section 10 Sponsors */}
-      <div class="container px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
+      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
         <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
           <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
           <h1 class="text-5xl font-bold text-gray-900">Sponsors</h1>
