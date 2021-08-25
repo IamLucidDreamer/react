@@ -1,17 +1,19 @@
 {
   "files": {
-    "main.css": "/react/static/css/main.e146662c.chunk.css",
-    "main.js": "/react/static/js/main.0e75c4dd.chunk.js",
-    "main.js.map": "/react/static/js/main.0e75c4dd.chunk.js.map",
-    "runtime-main.js": "/react/static/js/runtime-main.68a4fcfb.js",
-    "runtime-main.js.map": "/react/static/js/runtime-main.68a4fcfb.js.map",
-    "static/js/2.4605ea79.chunk.js": "/react/static/js/2.4605ea79.chunk.js",
-    "static/js/2.4605ea79.chunk.js.map": "/react/static/js/2.4605ea79.chunk.js.map",
-    "static/js/3.ac623d58.chunk.js": "/react/static/js/3.ac623d58.chunk.js",
-    "static/js/3.ac623d58.chunk.js.map": "/react/static/js/3.ac623d58.chunk.js.map",
+    "main.css": "/react/static/css/main.bb41dca1.chunk.css",
+    "main.js": "/react/static/js/main.477492ef.chunk.js",
+    "main.js.map": "/react/static/js/main.477492ef.chunk.js.map",
+    "runtime-main.js": "/react/static/js/runtime-main.f28e407e.js",
+    "runtime-main.js.map": "/react/static/js/runtime-main.f28e407e.js.map",
+    "static/css/2.207e99fc.chunk.css": "/react/static/css/2.207e99fc.chunk.css",
+    "static/js/2.f2224d3e.chunk.js": "/react/static/js/2.f2224d3e.chunk.js",
+    "static/js/2.f2224d3e.chunk.js.map": "/react/static/js/2.f2224d3e.chunk.js.map",
+    "static/js/3.a430ae03.chunk.js": "/react/static/js/3.a430ae03.chunk.js",
+    "static/js/3.a430ae03.chunk.js.map": "/react/static/js/3.a430ae03.chunk.js.map",
     "index.html": "/react/index.html",
-    "static/css/main.e146662c.chunk.css.map": "/react/static/css/main.e146662c.chunk.css.map",
-    "static/js/2.4605ea79.chunk.js.LICENSE.txt": "/react/static/js/2.4605ea79.chunk.js.LICENSE.txt",
+    "static/css/2.207e99fc.chunk.css.map": "/react/static/css/2.207e99fc.chunk.css.map",
+    "static/css/main.bb41dca1.chunk.css.map": "/react/static/css/main.bb41dca1.chunk.css.map",
+    "static/js/2.f2224d3e.chunk.js.LICENSE.txt": "/react/static/js/2.f2224d3e.chunk.js.LICENSE.txt",
     "static/media/0000000.903961f1.png": "/react/static/media/0000000.903961f1.png",
     "static/media/3. Karan Signature.6f1f5448.svg": "/react/static/media/3. Karan Signature.6f1f5448.svg",
     "static/media/3.Charlie.141f6881.png": "/react/static/media/3.Charlie.141f6881.png",
@@ -31,9 +33,10 @@
     "static/media/sdm.e72a42e0.png": "/react/static/media/sdm.e72a42e0.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.68a4fcfb.js",
-    "static/js/2.4605ea79.chunk.js",
-    "static/css/main.e146662c.chunk.css",
-    "static/js/main.0e75c4dd.chunk.js"
+    "static/js/runtime-main.f28e407e.js",
+    "static/css/2.207e99fc.chunk.css",
+    "static/js/2.f2224d3e.chunk.js",
+    "static/css/main.bb41dca1.chunk.css",
+    "static/js/main.477492ef.chunk.js"
   ]
 }
