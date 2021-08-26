@@ -15,6 +15,7 @@ import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png"
 import Header from "./../Partials/Header";
 import Header2 from "./../Partials/Header2";
 import Stickynav from "./../Partials/Stickynav"
+import MobileHeader from "../Partials/MobileHeader";
 
 export default function Home() {
   return (
@@ -22,6 +23,8 @@ export default function Home() {
       <Header />
       <Header2 />
       <Stickynav/>
+      <MobileHeader />
+
       {/* Section 1 */}
       <div className="bg-cover bg-center bg-no-repeat bg-hero">
         <p className="py-24 sm:py-72"></p>
@@ -30,9 +33,9 @@ export default function Home() {
       {/* Section 2 CAll Us */}
       <div class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36">
         <div class="flex flex-col sm:flex-row sm:items-end mx-auto">
-          <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-gray-2">
-            Call us <br />
-            <span class="text-red-1 text-5xl sm:text-6xl font-bold">
+          <h1 class="flex-grow sm:pr-16 text-4xl font-bold font-for-para text-gray-400">
+            Call Us <br />
+            <span class="text-red-1 text-4xl sm:text-6xl font-bold">
               647.289.1070
             </span>
           </h1>
@@ -43,7 +46,7 @@ export default function Home() {
       </div>
 
       {/* Section 3  Accountable */}
-      <div class="text-gray-600 body-font overflow-hidden">
+      <div class="text-gray-600 font-for-para overflow-hidden">
         <div class="flex flex-col sm:flex-row px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-4 pb-2 mt-8 text-white justify-center">
           <div class="bg-red-1 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
             <svg
@@ -83,7 +86,7 @@ export default function Home() {
       </div>
 
       {/* Section 4 Introducing Argus Security */}
-      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 bg-contain bg-no-repeat bg-mapbg">
+      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-24 bg-contain bg-no-repeat bg-mapbg2 font-for-para">
         <div class="flex flex-wrap items-start">
           <div class="items-end w-full md:w-1/2 flex flex-col lg:pr-12">
             <img
@@ -94,7 +97,7 @@ export default function Home() {
             <img
               src={section4_img2}
               alt="Argus Security Services"
-              class="bg-white w-9/12 pt-4 pl-4 -mt-36 md:-mt-72"
+              class="bg-white w-9/12 pt-4 pl-4 -mt-36 md:-mt-44"
             />
           </div>
           <div class="md:pl-3 w-full md:w-1/2 flex flex-col items-start">
@@ -104,12 +107,12 @@ export default function Home() {
                 Introducing Argus Security Services
               </h1>
             </div>
-            <p className="leading-relaxed text-l text-gray-2 mb-8">
+            <p className="leading-loose text-sm text-gray-2 mb-8">
               Argus Security ensures the team adherence to company rules and
               regulations. Our goal is to make our clients the direct
               beneficiaries of our policies and procedures.{" "}
             </p>
-            <ul class="text-gray-3 font-bold text-l flex flex-col md:flex-row mb-8">
+            <ul class="text-black font-bold text-sm flex flex-col md:flex-row mb-8">
               <div>
                 <li className="py-1">
                   <span className="text-red-1">✓</span> Optimized Mobile Patrols
@@ -143,7 +146,7 @@ export default function Home() {
                     alt=""
                     className="inline-block text-red-1 mb-4"
                   />
-                  <p class="leading-relaxed text-l font-medium text-gray-3 bg-gray-200 p-3 rounded-lg shadow-lg -mt-2">
+                  <p class="leading-loose text-l font-medium text-gray-3 bg-gray-200 px-6 py-6 shadow-lg -mt-2">
                     Success is not result of the amount of time we put in,
                     instead its the quality of time we put in.
                   </p>
@@ -155,7 +158,7 @@ export default function Home() {
                     />
                     <div class="mx-auto">
                       <img src={signature} alt="" />
-                      <p class="text-gray-500">CEO & CO FOUNDER</p>
+                      <p class="text-gray-3 font-bold">CEO & CO FOUNDER</p>
                     </div>
                   </div>
                 </div>
@@ -166,17 +169,17 @@ export default function Home() {
       </div>
 
       {/* Section 5 Services */}
-      <div class="bg-gray-200 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 ">
+      <div class="bg-gray-200 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 font-for-para">
         <div class="flex flex-wrap">
           <div class="flex flex-wrap w-full items-baseline">
-            <div class="w-full flex flex-col md:flex-row items-center">
+            <div class="w-full flex flex-col md:flex-row items-center pb-5">
               <div class="flex flex-col md:flex-row items-center pr-24">
                 <span class="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
                 <h1 class="text-4xl font-bold text-gray-3 pb-10 md:pb-0 ">
                 Firsthand information to our operations
                 </h1>
               </div>
-              <p className="leading-relaxed text-l text-gray-2 pb-10 ">
+              <p className="leading-loose text-l text-gray-2 pb-10 md:pb-0 ">
                 As a client you will gain first hand access to day-today operations and daily occurrence reposts.
               </p>
             </div>
@@ -194,7 +197,7 @@ export default function Home() {
                 <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
                   GATED COMMUNITY
                 </h1>
-                <p class="leading-relaxed mb-3 text-gray-2 p-2">
+                <p class="leading-loose mb-3 text-gray-2 p-2">
                   NFS marked vehicles, communication between residents &
                   security staff and efficient use of technology
                 </p>
@@ -218,7 +221,7 @@ export default function Home() {
                 <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
                   CONSTRUCTION
                 </h1>
-                <p class="leading-relaxed mb-3 text-gray-2 px-5 py-2">
+                <p class="leading-loose mb-3 text-gray-2 px-5 py-2">
                   Site surveillance, road flaggers, risk assessment, loss
                   prevention and mobile patrols at your construction site.
                 </p>
@@ -242,7 +245,7 @@ export default function Home() {
                 <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
                   PARKING
                 </h1>
-                <p class="leading-relaxed mb-3 text-gray-2 px-5 py-2">
+                <p class="leading-loose mb-3 text-gray-2 px-5 py-2">
                   Fire Route watch, valid permit enforcement and deterrent
                   against invalid/improper parking to ensure smoothness.
                 </p>
@@ -255,10 +258,10 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div class="w-3/4 mx-auto flex py-4">
-          <img src={section5} class="w-20 h-20" alt="" />
+        <div class="w-9/12 mx-auto flex py-3">
+          <img src={section5} class="w-24 h-24" alt="" />
           <svg
-            class="w-12 -mt-8 -ml-6 "
+            class="w-14 -mt-8 -ml-6 "
             xmlns="http://www.w3.org/2000/svg"
             width="85.04"
             height="85.003"
@@ -285,7 +288,7 @@ export default function Home() {
             </g>
           </svg>
           <div class="mx-auto px-4 py-4">
-            <h2 class="leading-relaxed text-l font-medium text-gray-2">
+            <h2 class="leading-loose text-l font-medium text-gray-2">
               24 HOURS SERVICE AVAILABLE
             </h2>
             <p class="text-l title-font font-bold text-gray-900">
@@ -297,24 +300,24 @@ export default function Home() {
       </div>
 
       {/* Section 6 Know you partners */}
-      <div class="text-white body-font overflow-hidden px-4 sm:px-8 md:px-16 lg:pl-16 lg:pr-20 xl:pl-28 xl:pr-36 pt-20 bg-cover bg-knowbg">
+      <div class="text-white body-font overflow-hidden px-4 sm:px-8 md:px-16 lg:pl-16 lg:pr-24 xl:pl-28 xl:pr-40 pt-20 bg-cover bg-knowbg font-for-para">
         <div class="px-5 py-12 mx-auto">
           <div class="flex flex-col-reverse md:flex-row -m-12 items-end ">
             <div class="w-10/12 md:w-7/12 mx-auto">
               <img src={section6} alt="Argus Security" />
             </div>
             <div class="md:w-1/2 p-4 flex flex-col items-start">
-              <h2 class="text-4xl font-medium w-full lg:w-10/12 mb-12 px-4 lg:px-0">
+              <h2 class="text-4xl font-bold w-full lg:w-10/12 mb-12 px-4 lg:px-0 leading-tight">
                 Know your
                 <br />
                 Partners-in-Protection
               </h2>
               <div class="flex items-center">
-                <button class="px-4 py-2 bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
-                <button class="px-4 py-2 bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
-                <button class="px-4 py-2 bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
+                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
+                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
+                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
               </div>
-              <p class="leading-relaxed p-4 mb-8">
+              <p class="leading-loose p-4 mb-2">
                 At Argus Security Services we maintain a prominent level of
                 training for our guards in response to our highly sensitive
                 sites. We offer 24/7 fast and reliable security services.
@@ -322,10 +325,10 @@ export default function Home() {
               </p>
               <div class="flex items-center flex-wrap pb-4 mb-4 mt-auto w-full">
                 <div>
-                  <img src={section4img} class="w-44 lg:w-28 xl:w-44 ml-4" alt="" />
+                  <img src={section4img} class="w-44 lg:w-28 xl:w-40 ml-4" alt="" />
                 </div>
                 <div>
-                  <ul class="p-4 text-sm">
+                  <ul class="p-4 text-sm font-bold">
                     <li className="py-1">
                       <span className="text-red-1 font-bold">✓</span> Member of Law
                       society of Ontario
@@ -358,8 +361,8 @@ export default function Home() {
       </div>
 
       {/* Section 7 Covid 19 CTA */}
-        <div class="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-center">
-            <h1 class="flex-grow sm:pr-16 text-4xl font-bold title-font text-white">
+        <div class="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-center font-for-para">
+            <h1 class="flex-grow sm:pr-28 text-4xl font-bold text-white leading-tight">
               Covid 19 Procedures and much more to safeguard your business.
             </h1>
             <button class="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-10 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-sm mt-10 sm:mt-0">
@@ -381,7 +384,7 @@ export default function Home() {
                     alt=""
                     className="inline-block text-red-1 mb-4"
                   />
-              <p class="leading-relaxed mb-6">Argus helped me find my child in a crowded
+              <p class="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
               <a class="inline-flex items-center">
                 <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
@@ -399,7 +402,7 @@ export default function Home() {
                     alt=""
                     className="inline-block text-red-1 mb-4"
                   />
-              <p class="leading-relaxed mb-6">Argus helped me find my child in a crowded
+              <p class="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
               <a class="inline-flex items-center">
                 <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
@@ -423,7 +426,7 @@ export default function Home() {
               Employee of the <br/>Month 
               </h1>
             </div>
-            <p className="leading-relaxed text-l text-gray-2 mb-8">
+            <p className="leading-loose text-l text-gray-2 mb-8">
               <span className="text-red-1">Ramanjeet Singh Sran </span>embodies the core values of Argus
               and has repeatedly gone above and beyond the call of duty
               to provide reliable customer service.
@@ -447,7 +450,7 @@ export default function Home() {
                     alt=""
                     className="inline-block text-red-1 mb-4"
                   />
-                  <p class="leading-relaxed text-l font-medium text-gray-3 bg-gray-200 p-3 rounded-lg shadow-lg -mt-2">
+                  <p class="leading-loose text-l font-medium text-gray-3 bg-gray-200 p-3 rounded-lg shadow-lg -mt-2">
                     They say 'Devil' works hard, Raman
                     works harder. He is an inspiration to us all.
                   </p>

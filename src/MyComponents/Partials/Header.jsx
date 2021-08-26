@@ -8,14 +8,14 @@ export default function Header() {
   const [open, setOpen] = useState(false)
   
   return (
-    <div className="">
+    <div className="shadow-lg">
       <div className="hidden lg:block px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 bg-red-1 shadow-2xl text-sm">
-        <div className="flex flex-row items-center mx-auto justify-between">
+        <div className="flex flex-row items-center mx-auto justify-between font-bold border-white font-for-para">
           <nav className="flex flex-row items-center">
-              <Link to="/technology" className="text-white border-2 rounded px-8 py-3 mr-3.5 hover:bg-white hover:text-red-1">
+              <Link to="/technology" className="text-white border-3 border-white rounded px-5 py-3 mr-3.5 hover:bg-white hover:text-red-1 hover:shadow-2xl">
                 Technology
               </Link>
-              <Link to="/Training" className="text-white border-2 rounded px-8 py-3 hover:bg-white hover:text-red-1">
+              <Link to="/Training" className="text-white border-3 border-white rounded px-6 py-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
                 Get Your Security Guard License
               </Link>
           </nav>
@@ -23,13 +23,13 @@ export default function Header() {
             <img src={Logo} alt="Logo of Argus Security" className="w-24 my-2"/>
           </Link>
           <nav className="flex flex-row items-center">
-            <Link open={open} onClick={() => setOpen(!open)} className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
+            <Link open={open} onClick={() => setOpen(!open)} className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
               Student Portal
             </Link>
-            <Link to="/dashboard/student/home" className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
+            <Link to="/dashboard/student/home" className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
               Client Portal
             </Link>
-            <Link to="/training" className="text-white border-2 rounded px-3 py-3 hover:bg-white hover:text-red-1">
+            <Link to="/training" className="text-white border-3 border-white rounded px-3 py-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
               Employee Portal
             </Link>
           </nav>
