@@ -19,14 +19,14 @@ export default function Header() {
                 Get Your Security Guard License
               </Link>
           </nav>
-          <Link to="/">
+          <Link to="/react">
             <img src={Logo} alt="Logo of Argus Security" className="w-24 my-2"/>
           </Link>
           <nav className="flex flex-row items-center">
             <Link open={open} onClick={() => setOpen(!open)} className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
               Student Portal
             </Link>
-            <Link to="/training" className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
+            <Link to="/dashboard/student/home" className="text-white border-2 rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1">
               Client Portal
             </Link>
             <Link to="/training" className="text-white border-2 rounded px-3 py-3 hover:bg-white hover:text-red-1">

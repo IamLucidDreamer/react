@@ -17,32 +17,36 @@ const Stickynav = () => {
     }
     }
 
+    
+
     return (
     
     <div className={open? "block" : "hidden"}>
         <div className="hidden lg:block w-full px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 text-l fixed top-0 bg-red-1">
             
-            <img src={Logo} alt="" className="w-24 fixed top-1 left-2"/>
+            <Link to="/react">
+                <img src={Logo} alt="" className="w-24 fixed top-1 left-2"/>
+            </Link>
 
             <nav class="flex flex-wrap items-center text-base">
             
-            <Link to="/about" className="w-1/5 text-white py-4 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
+            <Link to="/about" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
                 ABOUT
             </Link>
 
-            <Link to="/services" className="w-1/5 text-white py-4 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
+            <Link to="/services" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
             SERVICES
             </Link>
 
-            <Link to="/jobs" className="w-1/5 text-white py-4 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
+            <Link to="/jobs" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
             JOBS
             </Link>
             
-            <Link to="/training" className="w-1/5 text-white py-4 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
+            <Link to="/training" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
             TRAINING
             </Link>
 
-            <Link to="/contact" className="w-1/5 text-white py-4 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
+            <Link to="/contact" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
             CONTACT
             </Link>
         

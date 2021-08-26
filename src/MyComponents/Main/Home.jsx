@@ -94,7 +94,7 @@ export default function Home() {
             <img
               src={section4_img2}
               alt="Argus Security Services"
-              class="bg-white w-9/12 pt-4 pl-4 -mt-36 md:-mt-52"
+              class="bg-white w-9/12 pt-4 pl-4 -mt-36 md:-mt-72"
             />
           </div>
           <div class="md:pl-3 w-full md:w-1/2 flex flex-col items-start">
@@ -482,10 +482,10 @@ export default function Home() {
           <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
           <h1 class="text-5xl font-bold text-gray-900">Sponsors</h1>
         </div>
-        <div className="flex flex-wrap mx-auto">
-          <img src={sponsor2} alt="" className="w-1/3 "/>
-          <img src={sponsor1} alt="" className="w-1/3 "/>
-          <img src={sponsor1} alt="" className="w-1/3 "/>
+        <div className="flex flex-wrap mx-auto items-center justify-around">
+          <img src={sponsor2} alt="" className="w-60 "/>
+          <img src={sponsor1} alt="" className="w-72 "/>
+          <img src={sponsor1} alt="" className="w-72 "/>
         </div>
       </div>
 
