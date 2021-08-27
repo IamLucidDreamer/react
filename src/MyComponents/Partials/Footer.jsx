@@ -31,22 +31,22 @@ class Footer extends Component {
         return (
 
 
-<div className="text-white text-xl md:text-sm  body-font bg-center bg-no-repeat bg-cover bg-footer">
-  <div className="container px-2 sm:px-8 lg:px-24 xl:px-48 pb-12 mx-auto">
+<div className="text-white text-xl md:text-sm body-font bg-center bg-no-repeat bg-cover bg-footer">
+  <div className="container px-2 sm:px-8 lg:px-24 xl:pl-48 xl:pr-32 pb-12 mx-auto">
     <div className="flex flex-col md:flex-row md:text-left text-center order-first items-start">
       <div className="w-3/4 flex flex-wrap md:text-left text-center order-first mx-auto">
         <div className="lg:w-1/3 w-full px-4 pt-4">
         <img src={Logo} className="w-24 mx-auto md:mx-0 my-2" alt="Logo "/>
           <p className="text-white">Your protection is Our Mission. Proudly serving business and residential sector in Ontario.</p>
           <hr className="border-1 border-gray-600 w-11/12 my-3" />
-          <a href="tel:6472891070" className="px-2">
+          <p href="tel:6472891070" className="px-2 py-1">
                   {/* <img src={phone_logo} alt="Phone Logo" /> */}
                   <p>647-289-1070</p>
-          </a>
-          <a href="mailto:info@argussecurityservices.ca" className="px-2">
+          </p>
+          <p href="mailto:info@argussecurityservices.ca" className="px-2 py-1">
                   {/* <img src={phone_logo} alt="Phone Logo" /> */}
                   <p>info@argussecurityservices.ca</p>
-          </a>
+          </p>
               {/* <img src={phone_logo} alt="Phone Logo" /> */}
               <p>350 Rutherford Road South Brampton ON L6W-4N6 Suite 210 Plaza 2</p>
           </div>
@@ -115,7 +115,7 @@ class Footer extends Component {
           </nav>
         </div>
         </div>
-        <div className="w-full md:w-1/2 lg:w-1/4 bg-red-1">
+        <div className="w-full md:w-1/2 lg:w-4/12 bg-red-1">
           <div className="w-full px-4 text-center items-center pt-8 md:pt-16">
             <div className="flex flex-col bg-red-1 items-center p-6 mx-auto">
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 text-center">NEWSLETTER</h2>

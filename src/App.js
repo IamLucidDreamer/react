@@ -28,6 +28,12 @@ import StudentContact from "./MyComponents/DashBoard/Student/Contact"
 import Service from "./MyComponents/Components/Service";
 import ScrollToTop from "./Functions/ScrollToTop";
 
+import AdminHome from "./MyComponents/DashBoard/Admin/Home"
+import AdminHomeControls from "./MyComponents/DashBoard/Admin/HomePageControls"
+import AdminStatistics from "./MyComponents/DashBoard/Admin/Statistics"
+import AdminCourseControl from "./MyComponents/DashBoard/Admin/CourseControl"
+import AdminContactControl from "./MyComponents/DashBoard/Admin/ContactFormMessages"
+
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 
@@ -55,11 +61,19 @@ function App() {
           <Route path="/organisationstructure" component={OrganisationStructure}/>
           <Route path="/harassementpolicy" component={HarassementPolicy} />
           <Route path="/personell" component={Personell} />
+          
           <Route path="/dashboard/student/home" component={StudentHome} />
           <Route path="/dashboard/student/calendar" component={StudentCalendar} />
           <Route path="/dashboard/student/training" component={StudentTraining} />
           <Route path="/dashboard/student/course" component={StudentCourse} />
           <Route path="/dashboard/student/contact" component={StudentContact} />
+            
+          <Route path="/dashboard/admin/home" component={AdminHome} />
+          <Route path="/dashboard/admin/homecontrols" component={AdminHomeControls} />
+          <Route path="/dashboard/admin/statistics" component={AdminStatistics} />
+          <Route path="/dashboard/admin/coursecontrol" component={AdminCourseControl} />
+          <Route path="/dashboard/admin/contactformmessages" component={AdminContactControl} />
+        
         </switch>
         <Footer />
       </div>

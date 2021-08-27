@@ -29,7 +29,7 @@ export default function Header() {
             <Link to="/dashboard/student/home" className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
               Client Portal
             </Link>
-            <Link to="/training" className="text-white border-3 border-white rounded px-3 py-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
+            <Link to="/dashboard/admin/home" className="text-white border-3 border-white rounded px-3 py-3 hover:bg-white hover:text-red-1 hover:shadow-2xl">
               Employee Portal
             </Link>
           </nav>
