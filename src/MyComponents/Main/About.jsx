@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import about_image from './../../argus website/PNG/Video.png'
 import SideBar from './../Components/SideBar.jsx'
 import AboutPageButtons from '../Components/AboutPageButtons'
-import Stickynav from '../Partials/Stickynav'
+import Header from "./../Partials/Header";
+import Header2 from "./../Partials/Header2";
+import Stickynav from "./../Partials/Stickynav"
+import MobileHeader from "../Partials/MobileHeader";
 
 class About extends Component {
     
@@ -11,8 +14,11 @@ class About extends Component {
             
             
             <div>
-
-            <Stickynav />
+                
+                <Header />
+                <Header2 />
+                <Stickynav/>
+                <MobileHeader />
 
                 <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-aboutbg">
                     <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">

@@ -1,10 +1,10 @@
 import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
-import Aos from 'aos'
-import "aos/dist/aos.css"
 import Logo from "./../../argus website/SVG/logosvg.svg"
+import Scroll from "./../../argus website/SVG/Scroll up.svg"
 
 const Stickynav = () => {
+    
     const [open, setOpen] = useState(false)
 
     window.onscroll = function() {scrollFunction()};
@@ -17,7 +17,14 @@ const Stickynav = () => {
     }
     }
 
-    
+    const scrollToTop = () =>{
+        window.scrollTo({
+          top: 0, 
+          behavior: 'smooth'
+          /* you can also use 'auto' behaviour
+             in place of 'smooth' */
+        });
+      };
 
     return (
     
@@ -51,6 +58,12 @@ const Stickynav = () => {
             </Link>
         
             </nav>
+        </div>
+        <div className="w-12">
+            
+            <button onClick={scrollToTop}>
+                <img src={Scroll} alt="" className="w-12 fixed bottom-4 right-4"/>
+            </button>
         </div>
       </div>
     )

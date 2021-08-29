@@ -2,11 +2,21 @@ import React, { Component } from "react";
 import about_image from "./../../argus website/PNG/Video.png";
 import { Link } from "react-router-dom";
 import SideBar from "./../Components/SideBar.jsx";
+import Header from "./../Partials/Header";
+import Header2 from "./../Partials/Header2";
+import Stickynav from "./../Partials/Stickynav"
+import MobileHeader from "../Partials/MobileHeader";
 
 class About extends Component {
   render() {
     return (
       <div>
+
+        <Header />
+        <Header2 />
+        <Stickynav/>
+        <MobileHeader />
+
         <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-aboutbg">
           <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
             <div className="text-center lg:w-2/3 w-full">

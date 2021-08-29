@@ -3,6 +3,10 @@ import about_image from './../../../argus website/PNG/Video.png'
 import { Link } from 'react-router-dom'
 import TechPageButtons from './../../Components/TechPageButtons.jsx'
 import SideBar from './../../Components/SideBar.jsx'
+import Header from "./../../Partials/Header";
+import Header2 from "./../../Partials/Header2";
+import Stickynav from "./../../Partials/Stickynav"
+import MobileHeader from "./../../Partials/MobileHeader";
 
 class Communication extends Component {
     

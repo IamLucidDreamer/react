@@ -20,6 +20,7 @@ import MobileHeader from "../Partials/MobileHeader";
 export default function Home() {
   return (
     <div>
+      
       <Header />
       <Header2 />
       <Stickynav/>
@@ -87,7 +88,7 @@ export default function Home() {
 
       {/* Section 4 Introducing Argus Security */}
       <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-24 bg-contain bg-no-repeat bg-mapbg2 font-for-para">
-        <div class="flex flex-wrap items-start">
+        <div class="flex flex-wrap items-center">
           <div class="items-end w-full md:w-1/2 flex flex-col lg:pr-12">
             <img
               src={section4_img1}
@@ -419,7 +420,7 @@ export default function Home() {
       {/* Section 9 Employee of the Month */}
       <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-16 bg-cover bg-no-repeat bg-empofmon font-for-para">
         <div class="flex flex-wrap items-center">
-          <div class="md:px-12 md:py-12 w-full md:w-1/2 flex flex-col items-start">
+          <div class="md:px-12 w-full md:w-1/2 flex flex-col items-start">
             <div class="flex flex-col md:flex-row items-center w-full mb-4">
               <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
               <h1 class="text-4xl font-bold text-gray-3 mb-4">
@@ -454,7 +455,7 @@ export default function Home() {
                     Success is not result of the amount of time we put in,
                     instead its the quality of time we put in.
                   </p>
-                  <div class="py-6 flex items-center ">
+                  <div class="pt-6 flex items-center ">
                     <img
                       src={section4img}
                       class="w-20 h-20 p-1 border-2 border-red-1"
