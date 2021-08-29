@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Logo from "./../../argus website/SVG/logosvg.svg"
 import { Link } from 'react-router-dom'
+import API from './../../api'
 
 class Footer extends Component {
     
@@ -21,8 +22,12 @@ class Footer extends Component {
     }
 
     handleSubmit = (event) => {
-        alert(`${this.state.subscriber}`)
-        event.preventDefault()
+      fetch(`${API}/subscription/save`, {
+        method: "POST",
+        body: JSON.stringify(this.state.subscriber),
+        headers: { "Content-Type": "application/json" },
+      })
+      console.log(this.state.subscriber)
     }
 
 
@@ -121,9 +126,10 @@ class Footer extends Component {
               <h2 className="title-font font-medium text-white tracking-widest text-sm mb-3 text-center">NEWSLETTER</h2>
               <p className="text-white text-sm mt-2 text-center">Signup to get our daily latest
               security news and updates.</p>
+              
               <form className="w-full py-2" onSubmit={this.handleSubmit}>
-                <input type="email" className="w-full my-4 bg-white border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-white focus:border-white text-base outline-none text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Enter Email" value={this.state.subscriber} onChange={this.handleSubscriberChange}/>
-                <button className="w-full p-4 rounded-lg border font-bold text-white bg-black hover:bg-white hover:text-red-700 hover:border-black">REGISTER NOW</button>
+                <input type="email" className="w-full my-4 bg-white border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-white focus:border-white text-base outline-none text-black focus:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out" placeholder="Enter Email" value={this.state.subscriber} onChange={this.handleSubscriberChange}/>
+                <button className="w-full p-4 rounded-lg border font-bold text-white bg-black hover:bg-white hover:text-red-700 hover:border-black" type="submit">REGISTER NOW</button>
               </form>
             </div>
           </div>

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import section4_img1 from "./../../argus website/PNG/Video1.png";
 import section4_img2 from "./../../argus website/PNG/3.Charlie.png";
 import quotes from "./../../argus website/PNG/qoutes.PNG";
-import signature from "./../../argus website/SVG/3. Karan Signature.svg";
+import signature from "./../../argus website/SVG/01.svg";
 import section6 from './../../argus website/PNG/sdm.png'
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import section5 from "./../../argus website/PNG/0000000.png"
@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       {/* Section 2 CAll Us */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36">
+      <div class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36 z-0">
         <div class="flex flex-col sm:flex-row sm:items-end mx-auto">
           <h1 class="flex-grow sm:pr-16 text-4xl font-bold font-for-para text-gray-400">
             Call Us <br />
@@ -97,7 +97,7 @@ export default function Home() {
             <img
               src={section4_img2}
               alt="Argus Security Services"
-              class="bg-white w-9/12 pt-4 pl-4 -mt-36 md:-mt-44"
+              class="bg-white w-8/12 pt-4 pl-4 -mt-36 md:-md-40 lg:-mt-48 xl:-mt-72"
             />
           </div>
           <div class="md:pl-3 w-full md:w-1/2 flex flex-col items-start">
@@ -107,57 +107,57 @@ export default function Home() {
                 Introducing Argus Security Services
               </h1>
             </div>
-            <p className="leading-loose text-sm text-gray-2 mb-8">
+            <p className="leading-loose text-l text-gray-2 mb-8">
               Argus Security ensures the team adherence to company rules and
               regulations. Our goal is to make our clients the direct
               beneficiaries of our policies and procedures.{" "}
             </p>
-            <ul class="text-black font-bold text-sm flex flex-col md:flex-row mb-8">
+            <ul class="text-black font-bold text-l flex flex-col md:flex-row mb-2">
               <div>
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> Optimized Mobile Patrols
+                  <span className="text-red-1 font-bold">✓</span> Optimized Mobile Patrols
                 </li>
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> Fool Proof Checkpoints{" "}
+                  <span className="text-red-1 font-bold">✓</span> Fool Proof Checkpoints
                 </li>
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> GPS Tracking{" "}
+                  <span className="text-red-1 font-bold">✓</span> GPS Tracking
                 </li>
               </div>
-              <div className="md:ml-6">
+              <div className="md:ml-12">
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> Reliable Fire Watch
+                  <span className="text-red-1 font-bold">✓</span> Reliable Fire Watch
                 </li>
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> Tangible Proof of
+                  <span className="text-red-1 font-bold">✓</span> Tangible Proof of
                   Service
                 </li>
                 <li className="py-1">
-                  <span className="text-red-1">✓</span> Efficient Dispatching
+                  <span className="text-red-1 font-bold">✓</span> Efficient Dispatching
                   System
                 </li>
               </div>
             </ul>
             <div>
-              <div class="container px-2 py-2 mx-auto">
+              <div class="px-2 py-2 mx-auto">
                 <div class="w-full text-left">
                   <img
                     src={quotes}
                     alt=""
-                    className="inline-block text-red-1 mb-4"
+                    className="w-12 inline-block text-red-1 ml-4 mb-2"
                   />
-                  <p class="leading-loose text-l font-medium text-gray-3 bg-gray-200 px-6 py-6 shadow-lg -mt-2">
+                  <p class="leading-relaxed text-xl font-medium text-gray-2 bg-gray-200 px-12 py-8 shadow-lg mb-8">
                     Success is not result of the amount of time we put in,
                     instead its the quality of time we put in.
                   </p>
-                  <div class="py-6 flex items-center">
+                  <div class="py-6 flex items-center ">
                     <img
                       src={section4img}
-                      class="w-20 h-20 p-1 border border-red-1"
+                      class="w-20 h-20 p-1 border-2 border-red-1"
                       alt=""
                     />
-                    <div class="mx-auto">
-                      <img src={signature} alt="" />
+                    <div class="ml-8">
+                      <img src={signature} alt="" className="w-60"/>
                       <p class="text-gray-3 font-bold">CEO & CO FOUNDER</p>
                     </div>
                   </div>
@@ -313,11 +313,11 @@ export default function Home() {
                 Partners-in-Protection
               </h2>
               <div class="flex items-center">
-                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
-                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
-                <button class="px-5 py-3 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
+                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
+                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
+                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
               </div>
-              <p class="leading-loose p-4 mb-2">
+              <p class="leading-loose text-l p-4 mb-2">
                 At Argus Security Services we maintain a prominent level of
                 training for our guards in response to our highly sensitive
                 sites. We offer 24/7 fast and reliable security services.
@@ -328,7 +328,7 @@ export default function Home() {
                   <img src={section4img} class="w-44 lg:w-28 xl:w-40 ml-4" alt="" />
                 </div>
                 <div>
-                  <ul class="p-4 text-sm font-bold">
+                  <ul class="px-4 text-sm font-bold">
                     <li className="py-1">
                       <span className="text-red-1 font-bold">✓</span> Member of Law
                       society of Ontario
@@ -354,35 +354,35 @@ export default function Home() {
                   </ul>
                 </div>
               </div>
-              {/* <img src={signature} alt="" /> */}
+              <img src={signature} alt="" className="w-96 md:-ml-72"/>
             </div>
           </div>
         </div>
       </div>
 
       {/* Section 7 Covid 19 CTA */}
-        <div class="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-center font-for-para">
+        <div class="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-end font-for-para">
             <h1 class="flex-grow sm:pr-28 text-4xl font-bold text-white leading-tight">
               Covid 19 Procedures and much more to safeguard your business.
             </h1>
-            <button class="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-10 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-sm mt-10 sm:mt-0">
+            <button class="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-12 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-l mt-10 sm:mt-0">
               DISCOVER MORE
             </button>
           </div>
 
       {/* Section 8 Client Testimonial */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 bg-gray-200">
-        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
-        <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
-          <h1 class="text-4xl font-medium title-font text-gray-900">Client Testimonials</h1>
+      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 bg-gray-1 font-for-para">
+        <div className="flex flex-col lg:flex-row lg:justify-center items-center mb-24">
+        <span class="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
+          <h1 class="text-5xl font-bold text-gray-3 ">Client Testimonials</h1>
         </div>
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap mb-16">
         <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 shadow-2xl">
+            <div class="h-full bg-white p-8 shadow-lg">
             <img
                     src={quotes}
                     alt=""
-                    className="inline-block text-red-1 mb-4"
+                    className="w-12 inline-block text-red-1 mb-4"
                   />
               <p class="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
@@ -396,11 +396,11 @@ export default function Home() {
             </div>
           </div>
           <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 shadow-2xl">
+            <div class="h-full bg-white p-8 shadow-lg">
             <img
                     src={quotes}
                     alt=""
-                    className="inline-block text-red-1 mb-4"
+                    className="w-12 inline-block text-red-1 mb-4"
                   />
               <p class="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
@@ -417,9 +417,9 @@ export default function Home() {
       </div>
 
       {/* Section 9 Employee of the Month */}
-      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-40 bg-cover bg-no-repeat bg-empofmon">
-        <div class="flex flex-wrap items-start">
-          <div class="md:px-20 md:py-12 w-full md:w-1/2 flex flex-col items-start">
+      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-16 bg-cover bg-no-repeat bg-empofmon font-for-para">
+        <div class="flex flex-wrap items-center">
+          <div class="md:px-12 md:py-12 w-full md:w-1/2 flex flex-col items-start">
             <div class="flex flex-col md:flex-row items-center w-full mb-4">
               <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
               <h1 class="text-4xl font-bold text-gray-3 mb-4">
@@ -431,7 +431,7 @@ export default function Home() {
               and has repeatedly gone above and beyond the call of duty
               to provide reliable customer service.
             </p>
-            <ul class="text-gray-3 font-bold text-l mb-8">
+            <ul class="text-gray-3 font-bold text-l">
                 <li className="py-1">
                   <span className="text-red-1">✓</span> Driven
                 </li>
@@ -443,26 +443,26 @@ export default function Home() {
                 </li>
             </ul>
             <div>
-              <div class="container px-2 py-2 mx-auto">
+              <div class="px-2 py-2 mx-auto">
                 <div class="w-full text-left">
                   <img
                     src={quotes}
                     alt=""
-                    className="inline-block text-red-1 mb-4"
+                    className="w-12 inline-block text-red-1 ml-4 mb-2"
                   />
-                  <p class="leading-loose text-l font-medium text-gray-3 bg-gray-200 p-3 rounded-lg shadow-lg -mt-2">
-                    They say 'Devil' works hard, Raman
-                    works harder. He is an inspiration to us all.
+                  <p class="leading-normal text-xl font-medium text-gray-2 bg-gray-200 px-12 py-6 shadow-lg mb-8">
+                    Success is not result of the amount of time we put in,
+                    instead its the quality of time we put in.
                   </p>
-                  <div class="py-6 flex items-center">
+                  <div class="py-6 flex items-center ">
                     <img
                       src={section4img}
-                      class="w-20 h-20 p-1 border border-red-1"
+                      class="w-20 h-20 p-1 border-2 border-red-1"
                       alt=""
                     />
-                    <div class="mx-auto">
-                      <img src={signature} alt="" />
-                      <p class="text-gray-500">CEO & CO FOUNDER</p>
+                    <div class="ml-8">
+                      <img src={signature} alt="" className="w-60"/>
+                      <p class="text-gray-3 font-bold">AREA MANAGER</p>
                     </div>
                   </div>
                 </div>
@@ -473,22 +473,22 @@ export default function Home() {
             <img
               src={empofmonth}
               alt="Argus Security Services"
-              class="w-full"
+              class="w-10/12"
             />
           </div>
         </div>
       </div>
 
       {/* Section 10 Sponsors */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 mx-auto bg-gray-200">
-        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-16">
+      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-12 mx-auto bg-gray-1">
+        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-4">
           <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
           <h1 class="text-5xl font-bold text-gray-900">Sponsors</h1>
         </div>
         <div className="flex flex-wrap mx-auto items-center justify-around">
-          <img src={sponsor2} alt="" className="w-60 "/>
-          <img src={sponsor1} alt="" className="w-72 "/>
-          <img src={sponsor1} alt="" className="w-72 "/>
+          <img src={sponsor2} alt="" className="w-72 "/>
+          <img src={sponsor1} alt="" className="w-40 "/>
+          <img src={sponsor1} alt="" className="w-40 "/>
         </div>
       </div>
 

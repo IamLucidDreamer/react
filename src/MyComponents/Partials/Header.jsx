@@ -8,8 +8,8 @@ export default function Header() {
   const [open, setOpen] = useState(false)
   
   return (
-    <div className="shadow-lg">
-      <div className="hidden lg:block px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 bg-red-1 shadow-2xl text-sm">
+    <div className="shadow-lg z-10\">
+      <div className="hidden lg:block px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 bg-red-1 shadow-lg text-sm">
         <div className="flex flex-row items-center mx-auto justify-between font-bold border-white font-for-para">
           <nav className="flex flex-row items-center">
               <Link to="/technology" className="text-white border-3 border-white rounded px-5 py-3 mr-3.5 hover:bg-white hover:text-red-1 hover:shadow-2xl">
