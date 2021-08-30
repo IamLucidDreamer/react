@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import logo from './../../argus website/PNG/Logo Vectors.png';
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
-import { aunthenticate, signin, isAuthenticated } from '../helpers/auth';
+import { aunthenticate, signin, isAuthenticated } from '../../helpers/auth';
 
 const LogIn = ({ open }) => {
   const [data, setData] = useState({

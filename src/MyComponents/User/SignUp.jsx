@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from './../../argus website/PNG/Logo Vectors.png';
-import { signup } from '../helpers/auth';
+import { signup } from '../../helpers/auth';
 
 const SignUp = () => {
   const [data, setData] = useState({

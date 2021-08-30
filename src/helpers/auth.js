@@ -1,6 +1,6 @@
 /* eslint-disable eqeqeq */
 /* eslint-disable no-unused-vars */
-import { API } from "../../api";
+import { API } from "../api";
 
 //API is the server address
 
@@ -53,7 +53,7 @@ export const signout = (next) => {
 	return fetch(`${API}/signout`, {
 		method: "GET",
 	})
-		.then((response) => console.log("Signout Sucessfull"))
+		.then(() => console.log("Signout Sucessfully!"))
 		.catch((err) => console.log(err));
 };
 
