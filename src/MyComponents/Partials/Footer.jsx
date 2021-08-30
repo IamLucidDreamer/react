@@ -1,9 +1,7 @@
 import React, { useState } from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
 import Logo from './../../argus website/SVG/logosvg.svg';
 import { Link } from 'react-router-dom';
-import { subscriber } from '../../helpers/footer';
+import { subscriber } from '../helpers/footer';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -38,7 +36,20 @@ const Footer = () => {
                 residential sector in Ontario.
               </p>
               <hr className='border-1 border-gray-600 w-11/12 my-3' />
-              
+              <p href='tel:6472891070' className='px-2 py-1'>
+                {/* <img src={phone_logo} alt="Phone Logo" /> */}
+                <p>647-289-1070</p>
+              </p>
+              <p
+                href='mailto:info@argussecurityservices.ca'
+                className='px-2 py-1'>
+                {/* <img src={phone_logo} alt="Phone Logo" /> */}
+                <p>info@argussecurityservices.ca</p>
+              </p>
+              {/* <img src={phone_logo} alt="Phone Logo" /> */}
+              <p>
+                350 Rutherford Road South Brampton ON L6W-4N6 Suite 210 Plaza 2
+              </p>
             </div>
             <div className='lg:w-1/3 md:w-1/2 w-full px-4 pt-10 md:pt-32'>
               <h2 className='title-font font-medium text-white tracking-widest text-2xl md:text-sm mb-3'>

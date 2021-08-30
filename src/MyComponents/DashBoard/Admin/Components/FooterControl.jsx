@@ -1,6 +1,52 @@
-import React from 'react'
+import React, { useState } from 'react'
+import { isAuthenticated } from '../../../../helpers/auth';
+import { updateContact } from '../../../../helpers/contact';
 
-export default function FooterControl() {
+ const FooterControl = () => {
+  const [data, setData] = useState({
+    email: "",
+    phoneNumber:  "",
+    address: ""
+  })
+
+  const {address, email, phoneNumber} = data;
+  const {token} = isAuthenticated();
+
+  const handleEmailChange = (event) => {
+    setData({
+      ...data,
+      email: event.target.value,
+    });
+  };
+
+  const handlePhoneNumberChange = (event) => {
+    setData({
+      ...data,
+      phoneNumber: event.target.value,
+    });
+  };
+
+  const handleAddressChange = (event) => {
+    setData({
+      ...data,
+      address: event.target.value,
+    });
+  };
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    updateContact({email, phoneNumber, address}, token)
+    .then((data) => {
+      console.log(data);
+      setData({
+        ...data,
+        email : "",
+        phoneNumber: "",
+        address: ""
+      })
+    })
+    .catch((err) => console.log(err))
+  }
     return (
         <div className="mx-8 my-8 p-4 bg-white shadow-lg rounded-xl">
 
@@ -18,23 +64,29 @@ export default function FooterControl() {
                 </svg>
                 <h1 className="text-sm font-bold text-black p-2"> Update Contact Information.</h1>
               </div>
-              <form className="flex flex-col items-center py-4">
+              <form className="flex flex-col items-center py-4" onSubmit = {handleSubmit}>
                 <input
                   className="w-full border-b border-black focus:outline-none my-2"
                   type="text"
                   placeholder="Phone Number"
+                  value = {phoneNumber}
+                  onChange = {handlePhoneNumberChange}
                 />
                 <input
                   className="w-full border-b border-black focus:outline-none my-2"
                   type="text"
                   placeholder="Email"
+                  value = {email}
+                  onChange = {handleEmailChange}
                 />
                 <input
                   className="w-full border-b border-black focus:outline-none my-2"
                   type="text"
                   placeholder="Address"
+                  value = {address}
+                  onChange = {handleAddressChange}
                 />
-                <button className="w-2/3 mx-auto p-4 border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">
+                <button className="w-2/3 mx-auto p-4 border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700" onClick = {handleSubmit}>
                   Update
                 </button>
               </form>
@@ -42,3 +94,5 @@ export default function FooterControl() {
         </div>
     )
 }
+
+export default FooterControl;

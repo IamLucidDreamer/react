@@ -1,13 +1,12 @@
-import { API } from '../api';
+import { API } from '../../api';
 
-export const updateContact = (data, token) => {
-  const url = `${API}/contact/update`;
+export const subscriber = (data) => {
+  const url = `${API}/subscription/save`;
   return fetch(url, {
-    method: 'PUT',
+    method: 'POST',
     headers: {
       Accept: 'application/JSON',
       'Content-Type': 'application/JSON',
-      Authorization: `Bearer ${token}`
     },
     body: JSON.stringify(data),
   })
