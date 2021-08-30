@@ -4,7 +4,7 @@ import Hamburger from './Hamburger'
 
 export default function MobileHeader() {
     return (
-        <div className="sticky top-0 w-full shadow-2xl">
+        <div className="sticky top-0 w-full shadow-xl">
             <div className="block lg:hidden bg-red-1 flex flex-row justify-between items-center">
                 <img src={logo} alt="Logo of Argus Security" className="w-24 mx-4 my-3" />
             </div>

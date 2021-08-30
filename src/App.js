@@ -1,4 +1,5 @@
 import "./App.css";
+import "./MyComponents/Components/FontAwesomeIcons"
 
 import Header from "./MyComponents/Partials/Header.jsx";
 import Header2 from "./MyComponents/Partials/Header2.jsx";

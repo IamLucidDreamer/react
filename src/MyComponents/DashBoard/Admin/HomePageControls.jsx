@@ -3,6 +3,8 @@ import SideNav from "./Components/SideNav";
 import ProfileBar from "./Components/ProfileBar";
 import EmpOfMon from "./Components/EmpOfMon";
 import Testimonials from "./Components/Testimonial";
+import FooterControlSS from "./Components/FooterControl";
+import FooterControl from "./Components/FooterControl";
 
 
 export default function Home() {
@@ -16,6 +18,7 @@ export default function Home() {
 
             <Testimonials />
             <EmpOfMon />
+            <FooterControl />
           
         </div>
 

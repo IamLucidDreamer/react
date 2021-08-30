@@ -19,7 +19,7 @@ const LogIn = ({ open }) => {
                         <input className="w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500" type="password" placeholder="Password"/>
         
                         <button className="w-1/2 bg-red-700 text-white p-3 rounded-lg font-semibold text-lg">Login</button>
-                        <a className="text-gray-900 font-bold text-center my-2">Not yet Registered ? <Link to="/signup"><span className="text-blue-500"> Register</span> </Link> </a>
+                        <p className="text-gray-900 font-bold text-center my-2">Not yet Registered ? <Link to="/signup"><span className="text-blue-500"> Register</span> </Link> </p>
                     </form>
                 </div>
             </div>
