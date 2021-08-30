@@ -1,11 +1,21 @@
 import React, { Component } from 'react';
 import image1 from './../../argus website/PNG/raw-2_edited.png';
 import {Link} from 'react-router-dom';
+import Header from "./../Partials/Header";
+import Header2 from "./../Partials/Header2";
+import Stickynav from "./../Partials/Stickynav"
+import MobileHeader from "../Partials/MobileHeader";
 
 class Services extends Component {
     render() {
         return (
             <div>
+
+                <Header />
+                <Header2 />
+                <Stickynav/>
+                <MobileHeader />
+
                 <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-servicesbg">
                     <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
                         <div className="text-center lg:w-2/3 w-full">

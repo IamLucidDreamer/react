@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-
+import Header from "./../Partials/Header";
+import Header2 from "./../Partials/Header2";
+import Stickynav from "./../Partials/Stickynav"
+import MobileHeader from "../Partials/MobileHeader";
 import fleet from './../../argus website/PNG/fleet linked in.png'
 
 class Contact extends Component {
@@ -45,6 +48,12 @@ class Contact extends Component {
     render() {
         return (
             <div>
+
+                <Header />
+                <Header2 />
+                <Stickynav/>
+                <MobileHeader />
+
                 <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-jobsbg">
                     <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
                         <div className="text-center lg:w-2/3 w-full">
