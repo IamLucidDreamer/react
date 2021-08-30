@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from './../../argus website/SVG/logosvg.svg';
 import { Link } from 'react-router-dom';
-import { subscriber } from '../../helpers/footer';
+import { subscriber } from '../helpers/footer';
 
 const Footer = () => {
   const [email, setEmail] = useState('');

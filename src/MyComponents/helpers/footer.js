@@ -1,4 +1,4 @@
-import { API } from '../api';
+import { API } from '../../api';
 
 export const subscriber = (data) => {
   const url = `${API}/subscription/save`;
