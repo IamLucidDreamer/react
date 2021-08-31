@@ -1,6 +1,8 @@
 import "./App.css";
 import "./MyComponents/Components/FontAwesomeIcons"
 
+import AdminRoute from "./MyComponents/DashBoard/Admin/Components/AdminRoutes";
+
 import Header from "./MyComponents/Partials/Header.jsx";
 import Header2 from "./MyComponents/Partials/Header2.jsx";
 import Footer from "./MyComponents/Partials/Footer.jsx";
@@ -69,11 +71,11 @@ function App() {
           <Route path="/dashboard/student/course" component={StudentCourse} />
           <Route path="/dashboard/student/contact" component={StudentContact} />
             
-          <Route path="/dashboard/admin/home" component={AdminHome} />
-          <Route path="/dashboard/admin/homecontrols" component={AdminHomeControls} />
-          <Route path="/dashboard/admin/statistics" component={AdminStatistics} />
-          <Route path="/dashboard/admin/coursecontrol" component={AdminCourseControl} />
-          <Route path="/dashboard/admin/contactformmessages" component={AdminContactControl} />
+          <AdminRoute path="/dashboard/admin/home" component={AdminHome} />
+          <AdminRoute path="/dashboard/admin/homecontrols" component={AdminHomeControls} />
+          <AdminRoute path="/dashboard/admin/statistics" component={AdminStatistics} />
+          <AdminRoute path="/dashboard/admin/coursecontrol" component={AdminCourseControl} />
+          <AdminRoute path="/dashboard/admin/contactformmessages" component={AdminContactControl} />
         
         </switch>
         <Footer />

@@ -14,6 +14,8 @@ module.exports = {
         'callus':"url('argus website/PNG/aboutcallusbg.png')",
         'knowbg':"url('argus website/PNG/Group 1560.jpg')",
         'empofmon':"url('argus website/PNG/Overlay.png')",
+        'shape':"url(argus website/SVG/5. Newsletter-svg.svg)",
+        'shape1':"url(argus website/SVG/Path 217.svg)" 
        }),
        colors: {
         'gray-1': '#F1F1F1',
@@ -23,7 +25,7 @@ module.exports = {
       },
       fontFamily: {
         'for-heading': ['Rajdhani','ui-serif', 'Georgia', 'Cambria', "Times New Roman", 'Times', 'serif'],
-        'for-para': ["Helvetica", 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', 'Arial', "Noto Sans", 'sans-serif', "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
+        'for-para': ["Helvetica", 'ui-sans-serif', 'system-ui', '-apple-system', 'BlinkMacSystemFont', "Segoe UI", 'Roboto', 'Arial', "Noto Sans","sans-serif", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"]
       },
       borderWidth: {
         DEFAULT: '1px',
@@ -33,7 +35,10 @@ module.exports = {
         '4': '4px',
         '6': '6px',
         '8': '8px',
-      }
+      },
+      fontSize: {
+        '4xl': '2.85rem',
+       }
     },
   },
   variants: {

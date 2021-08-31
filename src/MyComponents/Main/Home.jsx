@@ -14,6 +14,8 @@ import empofmonth from "./../../argus website/PNG/8. Sud.png";
 import testimonial from "./../../argus website/PNG/IMG_0118.png";
 import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
 import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png"
+import camera from "./../../argus website/SVG/3. camera.svg"
+import medal from "./../../argus website/SVG/3. Medal.svg"
 import Header from "./../Partials/Header";
 import Header2 from "./../Partials/Header2";
 import Stickynav from "./../Partials/Stickynav"
@@ -34,44 +36,45 @@ export default function Home() {
       </div>
 
       {/* Section 2 CAll Us */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36 z-0">
-        <div class="flex flex-col sm:flex-row sm:items-end mx-auto">
-          <h1 class="flex-grow sm:pr-16 text-4xl font-bold font-for-para text-gray-400">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto sm:-mt-36 z-0">
+        <div className="flex flex-col sm:flex-row sm:items-end mx-auto">
+          <h1 className="flex-grow sm:pr-16 text-4xl font-bold font-for-para text-gray-400">
             Call Us <br />
-            <span class="text-red-1 text-4xl sm:text-6xl font-bold">
+            <span className="text-red-1 text-4xl sm:text-6xl font-bold">
               647.289.1070
             </span>
           </h1>
-          <button class="flex-shrink-0 font-bold text-white bg-red-1 py-5 px-4 md:px-12 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 rounded-lg text-sm mt-10 sm:mt-0">
+          <button className="flex-shrink-0 font-bold text-white bg-red-1 py-5 px-4 md:px-12 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 rounded-lg text-sm mt-10 sm:mt-0">
             DISCOVER MORE
           </button>
         </div>
       </div>
 
       {/* Section 3  Accountable */}
-      <div class="text-gray-600 font-for-para overflow-hidden">
-        <div class="flex flex-col sm:flex-row px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-4 pb-2 mt-8 text-white justify-center">
-          <div class="bg-red-1 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
-          <FontAwesomeIcon icon="search" class="w-12 h-12 text-white p-1 mr-10"/>
+      <div className="text-gray-600 font-for-para overflow-hidden">
+        <div className="flex flex-col sm:flex-row px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-4 pb-2 mt-8 text-white justify-center">
+          <div className="bg-red-1 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
+          <FontAwesomeIcon icon="search" className="w-12 h-12 text-white p-1 mr-10"/>
             <div>
               <p>100% Accountable</p>
-              <h1 class="font-bold">Know the Truth for Peace of Mind</h1>
+              <h1 className="font-bold">Know the Truth for Peace of Mind</h1>
             </div>
           </div>
-          <div class="bg-gray-3 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
-            <FontAwesomeIcon icon="search" class="w-12 h-12 text-white p-1 mr-10"/>
+          <div className="bg-gray-3 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
+            <FontAwesomeIcon icon="search" className="w-12 h-12 text-white p-1 mr-10"/>
             <div>
               <p>100% Accountable</p>
-              <h1 class="font-bold">Direct Updates Regarding Incidents</h1>
+              <h1 className="font-bold">Direct Updates Regarding Incidents</h1>
             </div>
           </div>
         </div>
       </div>
 
       {/* Section 4 Introducing Argus Security */}
-      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-24 bg-contain bg-no-repeat bg-mapbg2 font-for-para">
-        <div class="flex flex-wrap items-center">
-          <div class="items-end w-full md:w-1/2 flex flex-col lg:pr-12">
+      <div>
+      <div className="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-24 bg-contain bg-no-repeat bg-mapbg2 font-for-para">
+        <div className="flex flex-wrap items-center">
+          <div className="items-end w-full md:w-1/2 flex flex-col lg:pr-12">
             <img
               src={section4_img1}
               alt="Argus Security Services"
@@ -80,13 +83,13 @@ export default function Home() {
             <img
               src={section4_img2}
               alt="Argus Security Services"
-              class="bg-white w-8/12 pt-4 pl-4 -mt-36 md:-md-40 lg:-mt-48 xl:-mt-72"
+              className="bg-white w-8/12 pt-4 pl-4 -mt-36 md:-md-40 lg:-mt-48 xl:-mt-72"
             />
           </div>
-          <div class="md:pl-3 w-full md:w-1/2 flex flex-col items-start">
-            <div class="flex flex-col md:flex-row items-center w-full mb-4">
-              <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
-              <h1 class="text-4xl font-bold text-gray-3 mb-4">
+          <div className="md:pl-3 w-full md:w-1/2 flex flex-col items-start">
+            <div className="flex flex-col md:flex-row items-center w-full mb-4">
+              <span className="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+              <h1 className="leading-tight text-4xl font-bold text-gray-3 mb-4">
                 Introducing Argus Security Services
               </h1>
             </div>
@@ -95,7 +98,7 @@ export default function Home() {
               regulations. Our goal is to make our clients the direct
               beneficiaries of our policies and procedures.{" "}
             </p>
-            <ul class="text-black font-bold text-l flex flex-col md:flex-row mb-2">
+            <ul className="text-black font-bold text-l flex flex-col md:flex-row mb-2">
               <div>
                 <li className="py-1">
                   <span className="text-red-1 font-bold">✓</span> Optimized Mobile Patrols
@@ -122,26 +125,26 @@ export default function Home() {
               </div>
             </ul>
             <div>
-              <div class="px-2 py-2 mx-auto">
-                <div class="w-full text-left">
+              <div className="px-2 py-2 mx-auto">
+                <div className="w-full text-left">
                   <img
                     src={quotes}
                     alt=""
                     className="w-12 inline-block text-red-1 ml-4 mb-2"
                   />
-                  <p class="leading-relaxed text-xl font-medium text-gray-2 bg-gray-200 px-12 py-8 shadow-lg mb-8">
+                  <p className="leading-relaxed text-xl font-medium text-gray-2 bg-gray-200 px-12 py-8 shadow-lg mb-8">
                     Success is not result of the amount of time we put in,
                     instead its the quality of time we put in.
                   </p>
-                  <div class="py-6 flex items-center ">
+                  <div className="py-6 flex items-center ">
                     <img
                       src={section4img}
-                      class="w-20 h-20 p-1 border-2 border-red-1"
+                      className="w-20 h-20 p-1 border-2 border-red-1"
                       alt=""
                     />
-                    <div class="ml-8">
+                    <div className="ml-8">
                       <img src={signature} alt="" className="w-60"/>
-                      <p class="text-gray-3 font-bold">CEO & CO FOUNDER</p>
+                      <p className="text-gray-3 font-bold">CEO & CO FOUNDER</p>
                     </div>
                   </div>
                 </div>
@@ -150,15 +153,17 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <img src={camera} alt="" className="w-40 h-40 ml-auto -mt-40"/>
+      </div>
 
       {/* Section 5 Services */}
-      <div class="bg-gray-200 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 font-for-para">
-        <div class="flex flex-wrap">
-          <div class="flex flex-wrap w-full items-baseline">
-            <div class="w-full flex flex-col md:flex-row items-center pb-5">
-              <div class="flex flex-col md:flex-row items-center pr-24">
-                <span class="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
-                <h1 class="text-4xl font-bold text-gray-3 pb-10 md:pb-0 ">
+      <div className="bg-gray-200 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 font-for-para">
+        <div className="flex flex-wrap">
+          <div className="flex flex-wrap w-full items-baseline">
+            <div className="w-full flex flex-col md:flex-row items-center pb-5">
+              <div className="flex flex-col md:flex-row items-center pr-24">
+                <span className="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
+                <h1 className="leading-tight text-4xl font-bold text-gray-3 pb-10 md:pb-0 ">
                 Firsthand information to our operations
                 </h1>
               </div>
@@ -168,19 +173,85 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap justify-evenly text-center mb-8 ">
-          <div class="p-8 md:w-1/3">
-            <div class="h-full border-4 border-gray-2 border-opacity-60 overflow-hidden hover:border-red-1">
+
+        <div className="flex flex-wrap justify-between text-center mb-8 ">
+        <div className="">
               <img
-                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src={image1}
                 alt="blog"
               />
-              <div class=" bg-white">
-                <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
+                <div className="px-10 py-6 mb-10 text-center m-5">
+                  <div className="bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
                   GATED COMMUNITY
                 </h1>
-                <p class="leading-loose mb-3 text-gray-2 p-2">
+                <p className="leading-loose mb-3 text-gray-2 p-2">
+                  NFS marked vehicles, communication between residents &
+                  security staff and efficient use of technology
+                </p>
+                </div>
+                <button className="w-full text-lg h-16 text-white font-extrabold bg-green-500">VIEW RECIPES</button>
+            </div>
+          </div>
+
+
+          <div className="">
+              <img
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                src={image1}
+                alt="blog"
+              />
+                <div className="px-10 py-6 mb-10 text-center m-5">
+                  <div className="bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+                  GATED COMMUNITY
+                </h1>
+                <p className="leading-loose mb-3 text-gray-2 p-2">
+                  NFS marked vehicles, communication between residents &
+                  security staff and efficient use of technology
+                </p>
+                </div>
+                <button className="w-full text-lg h-16 text-white font-extrabold bg-green-500">VIEW RECIPES</button>
+            </div>
+          </div>
+
+
+          <div className="">
+              <img
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                src={image1}
+                alt="blog"
+              />
+                <div className="px-10 py-6 mb-10 text-center m-5">
+                  <div className="bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+                  GATED COMMUNITY
+                </h1>
+                <p className="leading-loose mb-3 text-gray-2 p-2">
+                  NFS marked vehicles, communication between residents &
+                  security staff and efficient use of technology
+                </p>
+                </div>
+                <button className="w-full text-lg h-16 text-white font-extrabold bg-green-500">VIEW RECIPES</button>
+            </div>
+          </div>
+
+          </div>
+
+        <div className="flex flex-wrap justify-between text-center mb-8 ">
+          <div className="md:w-1/3">
+            <div className="h-full overflow-hidden ">
+              <img
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                src={image1}
+                alt="blog"
+              />
+              <div className=" bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+                  GATED COMMUNITY
+                </h1>
+                <p className="leading-loose mb-3 text-gray-2 p-2">
                   NFS marked vehicles, communication between residents &
                   security staff and efficient use of technology
                 </p>
@@ -193,18 +264,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="p-8 md:w-1/3">
-            <div class="h-full border-4 border-gray-2 border-opacity-60 overflow-hidden hover:border-red-1">
+          <div className="p-8 md:w-1/3">
+            <div className="h-full overflow-hidden">
               <img
-                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src={image1}
                 alt="blog"
               />
-              <div class=" bg-white">
-                <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
+              <div className=" bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
                   CONSTRUCTION
                 </h1>
-                <p class="leading-loose mb-3 text-gray-2 px-5 py-2">
+                <p className="leading-loose mb-3 text-gray-2 px-5 py-2">
                   Site surveillance, road flaggers, risk assessment, loss
                   prevention and mobile patrols at your construction site.
                 </p>
@@ -217,18 +288,18 @@ export default function Home() {
             </div>
           </div>
 
-          <div class="p-8 md:w-1/3">
-            <div class="h-full border-4 border-gray-2 border-opacity-60 overflow-hidden hover:border-red-1">
+          <div className="p-8 md:w-1/3">
+            <div className="h-full overflow-hidden ">
               <img
-                class="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-48 md:h-36 w-full object-cover object-center"
                 src={section5}
                 alt="blog"
               />
-              <div class=" bg-white">
-                <h1 class="title-font text-lg font-medium text-white bg-gray-3 p-4 mb-3 rounded-lg">
+              <div className=" bg-white">
+                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
                   PARKING
                 </h1>
-                <p class="leading-loose mb-3 text-gray-2 px-5 py-2">
+                <p className="leading-loose mb-3 text-gray-2 px-5 py-2">
                   Fire Route watch, valid permit enforcement and deterrent
                   against invalid/improper parking to ensure smoothness.
                 </p>
@@ -241,11 +312,11 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div class="w-9/12 mx-auto flex items-center py-3">
-          <img src={section5} class="w-24 h-24" alt="" />
+        <div className="w-9/12 mx-auto flex items-center py-3">
+          <img src={section5} className="w-24 h-24" alt="" />
           <div className="-mt-20 -ml-6" >
           <svg
-            class="w-14 h-14 bg-white"
+            className="w-14 h-14 bg-white"
             xmlns="http://www.w3.org/2000/svg"
             width="85.04"
             height="85.003"
@@ -272,48 +343,48 @@ export default function Home() {
             </g>
           </svg>
           </div>
-          <div class="mx-auto px-4 py-4">
-            <h2 class="leading-loose text-l font-medium text-gray-2">
+          <div className="mx-auto px-4 py-4">
+            <h2 className="leading-loose text-l font-medium text-gray-2">
               24 HOURS SERVICE AVAILABLE
             </h2>
-            <p class="text-l title-font font-bold text-gray-900">
+            <p className="text-l title-font font-bold text-gray-900">
               Have any questions? Feel free to contact our office today at{" "}
-              <span class="text-red-1">647.289.1070</span>
+              <span className="text-red-1">647.289.1070</span>
             </p>
           </div>
         </div>
       </div>
 
       {/* Section 6 Know you partners */}
-      <div class="text-white body-font overflow-hidden px-4 sm:px-8 md:px-16 lg:pl-16 lg:pr-24 xl:pl-28 xl:pr-40 pt-20 bg-cover bg-knowbg font-for-para">
-        <div class="px-5 py-12 mx-auto">
-          <div class="flex flex-col-reverse md:flex-row -m-12 items-end ">
-            <div class="w-10/12 md:w-7/12 mx-auto">
+      <div className="text-white body-font overflow-hidden px-4 sm:px-8 md:px-16 lg:pl-16 lg:pr-24 xl:pl-28 xl:pr-40 pt-20 bg-cover bg-knowbg font-for-para">
+        <div className="px-5 py-12 mx-auto">
+          <div className="flex flex-col-reverse md:flex-row -m-12 items-end ">
+            <div className="w-10/12 md:w-7/12 mx-auto">
               <img src={section6} alt="Argus Security" />
             </div>
-            <div class="md:w-1/2 p-4 flex flex-col items-start">
-              <h2 class="text-4xl font-bold w-full lg:w-10/12 mb-12 px-4 lg:px-0 leading-tight">
+            <div className="md:w-1/2 p-4 flex flex-col items-start">
+              <h1 className="text-4xl font-bold w-full lg:w-11/12 mb-12 px-4 lg:px-0 leading-tight">
                 Know your
                 <br />
                 Partners-in-Protection
-              </h2>
-              <div class="flex items-center">
-                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
-                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
-                <button class="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
+              </h1>
+              <div className="flex items-center">
+                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">OUR TEAM</button>
+                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">ARGUS HIERARCHY</button>
+                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">CONTACT US</button>
               </div>
-              <p class="leading-loose text-l p-4 mb-2">
+              <p className="leading-loose text-l p-6 mb-2">
                 At Argus Security Services we maintain a prominent level of
                 training for our guards in response to our highly sensitive
                 sites. We offer 24/7 fast and reliable security services.
                 Qualifications of our Directors are as follows:
               </p>
-              <div class="flex items-center flex-wrap pb-4 mb-4 mt-auto w-full">
+              <div className="flex items-center flex-wrap pb-4 mb-4 mt-auto w-full">
                 <div>
-                  <img src={section4img} class="w-44 lg:w-28 xl:w-40 ml-4" alt="" />
+                  <img src={section4img} className="w-44 lg:w-28 xl:w-40 ml-4" alt="" />
                 </div>
                 <div>
-                  <ul class="px-4 text-sm font-bold">
+                  <ul className="px-4 text-sm font-bold">
                     <li className="py-1">
                       <span className="text-red-1 font-bold">✓</span> Member of Law
                       society of Ontario
@@ -346,54 +417,54 @@ export default function Home() {
       </div>
 
       {/* Section 7 Covid 19 CTA */}
-        <div class="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-end font-for-para">
-            <h1 class="flex-grow sm:pr-28 text-4xl font-bold text-white leading-tight">
+        <div className="bg-red-1 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-20 flex flex-col sm:flex-row items-end font-for-para">
+            <h1 className="flex-grow sm:pr-28 text-4xl font-bold text-white leading-tight">
               Covid 19 Procedures and much more to safeguard your business.
             </h1>
-            <button class="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-12 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-l mt-10 sm:mt-0">
+            <button className="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-12 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-l mt-10 sm:mt-0">
               DISCOVER MORE
             </button>
           </div>
 
       {/* Section 8 Client Testimonial */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 bg-gray-1 font-for-para">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-24 bg-gray-1 font-for-para">
         <div className="flex flex-col lg:flex-row lg:justify-center items-center mb-24">
-        <span class="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
-          <h1 class="text-5xl font-bold text-gray-3 ">Client Testimonials</h1>
+        <span className="h-1 w-10 bg-red-1 mb-10 md:m-0 md:mr-4"></span>
+          <h1 className="text-4xl font-bold text-gray-3 ">Client Testimonials</h1>
         </div>
-        <div class="flex flex-wrap mb-16">
-        <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 shadow-lg">
+        <div className="flex flex-wrap mb-16">
+        <div className="p-4 md:w-1/2 w-full">
+            <div className="h-full bg-white p-8 shadow-lg">
             <img
                     src={quotes}
                     alt=""
                     className="w-12 inline-block text-red-1 mb-4"
                   />
-              <p class="leading-loose mb-6">Argus helped me find my child in a crowded
+              <p className="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
-              <a class="inline-flex items-center">
-                <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
-                <span class="flex-grow flex flex-col pl-4">
-                  <span class="title-font font-medium text-red-1">Tanbir Singh</span>
-                  <span class="text-black text-sm">The Sidhu Estates</span>
+              <a className="inline-flex items-center">
+                <img alt="testimonial" src={testimonial} className="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
+                <span className="flex-grow flex flex-col pl-4">
+                  <span className="title-font font-medium text-red-1">Tanbir Singh</span>
+                  <span className="text-black text-sm">The Sidhu Estates</span>
                 </span>
               </a>
             </div>
           </div>
-          <div class="p-4 md:w-1/2 w-full">
-            <div class="h-full bg-white p-8 shadow-lg">
+          <div className="p-4 md:w-1/2 w-full">
+            <div className="h-full bg-white p-8 shadow-lg">
             <img
                     src={quotes}
                     alt=""
                     className="w-12 inline-block text-red-1 mb-4"
                   />
-              <p class="leading-loose mb-6">Argus helped me find my child in a crowded
+              <p className="leading-loose mb-6">Argus helped me find my child in a crowded
                 mall. I would be eternally thankful.</p>
-              <a class="inline-flex items-center">
-                <img alt="testimonial" src={testimonial} class="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
-                <span class="flex-grow flex flex-col pl-4">
-                  <span class="title-font font-medium text-red-1">Tanbir Singh</span>
-                  <span class="text-black text-sm">The Sidhu Estates</span>
+              <a className="inline-flex items-center">
+                <img alt="testimonial" src={testimonial} className="w-20 h-20 p-1 border-2 border-red-1 flex-shrink-0 object-cover object-center"/>
+                <span className="flex-grow flex flex-col pl-4">
+                  <span className="title-font font-medium text-red-1">Tanbir Singh</span>
+                  <span className="text-black text-sm">The Sidhu Estates</span>
                 </span>
               </a>
             </div>
@@ -402,12 +473,14 @@ export default function Home() {
       </div>
 
       {/* Section 9 Employee of the Month */}
-      <div class="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-16 bg-cover bg-no-repeat bg-empofmon font-for-para">
-        <div class="flex flex-wrap items-center">
-          <div class="md:px-12 w-full md:w-1/2 flex flex-col items-start">
-            <div class="flex flex-col md:flex-row items-center w-full mb-4">
-              <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
-              <h1 class="text-4xl font-bold text-gray-3 mb-4">
+      <div>
+      <img src={medal} alt="" className="w-52 h-52 mr-auto -mb-52"/>
+      <div className="px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 py-16 bg-cover bg-no-repeat bg-empofmon font-for-para">
+        <div className="flex flex-wrap items-center">
+          <div className="md:px-12 w-full md:w-1/2 flex flex-col items-start">
+            <div className="flex flex-col md:flex-row items-center w-full mb-4">
+              <span className="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+              <h1 className="leading-tight text-4xl font-bold text-gray-3 mb-4">
               Employee of the <br/>Month 
               </h1>
             </div>
@@ -416,7 +489,7 @@ export default function Home() {
               and has repeatedly gone above and beyond the call of duty
               to provide reliable customer service.
             </p>
-            <ul class="text-gray-3 font-bold text-l">
+            <ul className="text-gray-3 font-bold text-l">
                 <li className="py-1">
                   <span className="text-red-1">✓</span> Driven
                 </li>
@@ -428,47 +501,48 @@ export default function Home() {
                 </li>
             </ul>
             <div>
-              <div class="px-2 py-2 mx-auto">
-                <div class="w-full text-left">
+              <div className="px-2 py-2 mx-auto">
+                <div className="w-full text-left">
                   <img
                     src={quotes}
                     alt=""
                     className="w-12 inline-block text-red-1 ml-4 mb-2"
                   />
-                  <p class="leading-normal text-xl font-medium text-gray-2 bg-gray-200 px-12 py-6 shadow-lg mb-8">
+                  <p className="leading-normal text-xl font-medium text-gray-2 bg-gray-200 px-12 py-6 shadow-lg mb-8">
                     Success is not result of the amount of time we put in,
                     instead its the quality of time we put in.
                   </p>
-                  <div class="pt-6 flex items-center ">
+                  <div className="pt-6 flex items-center ">
                     <img
                       src={section4img}
-                      class="w-20 h-20 p-1 border-2 border-red-1"
+                      className="w-20 h-20 p-1 border-2 border-red-1"
                       alt=""
                     />
-                    <div class="ml-8">
+                    <div className="ml-8">
                       <img src={signature} alt="" className="w-60"/>
-                      <p class="text-gray-3 font-bold">AREA MANAGER</p>
+                      <p className="text-gray-3 font-bold">AREA MANAGER</p>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div class="items-end w-full md:w-1/2 lg:pl-12">
+          <div className="items-end w-full md:w-1/2 lg:pl-12">
             <img
               src={empofmonth}
               alt="Argus Security Services"
-              class="w-10/12"
+              className="w-10/12"
             />
           </div>
         </div>
       </div>
+      </div>
 
       {/* Section 10 Sponsors */}
-      <div class="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-12 mx-auto bg-gray-1">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-12 mx-auto bg-gray-1">
         <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-4">
-          <span class="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
-          <h1 class="text-5xl font-bold text-gray-900">Sponsors</h1>
+          <span className="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
+          <h1 className="leading-tight text-4xl font-bold text-gray-3 mb-4">Sponsors</h1>
         </div>
         <div className="flex flex-wrap mx-auto items-center justify-around">
           <img src={sponsor2} alt="" className="w-72 "/>

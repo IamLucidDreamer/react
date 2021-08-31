@@ -82,12 +82,12 @@ const LogIn = ({ open }) => {
               onClick={handleSubmit}>
               Login
             </button>
-            <a className='text-gray-900 font-bold text-center my-2'>
+            <p className='text-gray-900 font-bold text-center my-2'>
               Not yet Registered ?{' '}
               <Link to='/signup'>
                 <span className='text-blue-500'> Register</span>{' '}
               </Link>{' '}
-            </a>
+            </p>
           </form>
         </div>
       </div>

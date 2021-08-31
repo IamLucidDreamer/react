@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 import logo from './../../argus website/PNG/Logo Vectors.png';
 import { signup } from '../../helpers/auth';
+import Header from '../Partials/Header';
+import Header2 from '../Partials/Header2';
+import MobileHeader from '../Partials/MobileHeader';
+import Stickynav from '../Partials/Stickynav';
 
 const SignUp = () => {
   const [data, setData] = useState({
@@ -38,6 +42,13 @@ const SignUp = () => {
   };
 
   return (
+    <div>
+      
+    <Header />
+    <Header2 />
+    <MobileHeader />
+    <Stickynav />
+
     <div className='p-20 h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center bg-hero'>
       <div className='content text-3xl text-center md:text-left lg:w-2/3'>
         <h1 className='text-5xl text-gray-700 font-bold'>Argus Security</h1>
@@ -71,9 +82,9 @@ const SignUp = () => {
           <button className='w-1/2 bg-red-700 text-white p-3 rounded-lg font-semibold text-lg'>
             Next
           </button>
-          <a className='text-gray-900 font-bold text-center my-2'>
+          <p className='text-gray-900 font-bold text-center my-2'>
             Already Registered?<span className='text-blue-500'> Log In</span>{' '}
-          </a>
+          </p>
           <hr className='border-1 border-black w-full' />
           <p className='text-gray-900 text-center text-sm my-2'>
             By clicking on next, you acknowledge that you have read and accepted
@@ -81,6 +92,7 @@ const SignUp = () => {
           </p>
         </form>
       </div>
+    </div>
     </div>
   );
 };

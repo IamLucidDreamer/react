@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Logo from './../../argus website/SVG/logosvg.svg';
 import { Link } from 'react-router-dom';
-import { subscriber } from '../helpers/footer';
+import { subscriber } from '../../helpers/footer';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
@@ -21,7 +21,7 @@ const Footer = () => {
   };
 
   return (
-    <div className='text-white text-xl md:text-sm body-font bg-center bg-no-repeat bg-cover bg-footer'>
+    <div className='text-white text-xs md:text-sm body-font bg-center bg-no-repeat bg-cover bg-footer'>
       <div className='container px-2 sm:px-8 lg:px-24 xl:pl-48 xl:pr-32 pb-12 mx-auto'>
         <div className='flex flex-col md:flex-row md:text-left text-center order-first items-start'>
           <div className='w-3/4 flex flex-wrap md:text-left text-center order-first mx-auto'>
@@ -211,14 +211,16 @@ const Footer = () => {
             </div>
           </div>
           <div className='w-full md:w-1/2 lg:w-4/12 bg-red-1'>
-            <div className='w-full px-4 text-center items-center pt-8 md:pt-16'>
-              <div className='flex flex-col bg-red-1 items-center p-6 mx-auto'>
+            <div className='w-full px-4 text-center items-center pt-8'>
+              <div className='flex flex-col bg-red-1 items-center px-10 py-8  mx-auto'>
+                <div className="bg-contain bg-no-repeat bg-center bg-shape bg-opacity-5 p-6 ">
                 <h2 className='title-font font-medium text-white tracking-widest text-sm mb-3 text-center'>
                   NEWSLETTER
                 </h2>
                 <p className='text-white text-sm mt-2 text-center'>
                   Signup to get our daily latest security news and updates.
                 </p>
+                </div>
 
                 <form className='w-full py-2' onSubmit={handleSubmit}>
                   <input
