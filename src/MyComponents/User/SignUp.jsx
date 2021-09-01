@@ -65,14 +65,14 @@ const SignUp = () => {
             <hr className='w-1/3 border-1 border-black' />
           </div>
           <input
-            className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500'
+            className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-red-1'
             type='email'
             placeholder='Email'
             value={data.email}
             onChange={handleEmailChange}
           />
           <input
-            className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500'
+            className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-red-1'
             type='password'
             placeholder='Password'
             value={data.password}

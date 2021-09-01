@@ -5,6 +5,8 @@ import { Link } from 'react-router-dom';
 import { aunthenticate, signin, isAuthenticated } from '../../helpers/auth';
 
 const LogIn = ({ open }) => {
+  
+  
   const [data, setData] = useState({
     email: '',
     password: '',
@@ -63,14 +65,14 @@ const LogIn = ({ open }) => {
             <img src={logo} alt='Logo' className='w-20 mb-3' />
 
             <input
-              className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500'
+              className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-red-1'
               type='email'
               placeholder='Email'
               value={email}
               onChange={handleEmailChange}
             />
             <input
-              className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-cyan-500'
+              className='w-full mb-3 py-3 px-4 border border-gray-400 focus:outline-none rounded-md focus:ring-1 ring-red-1'
               type='password'
               placeholder='Password'
               value={password}
@@ -83,10 +85,10 @@ const LogIn = ({ open }) => {
               Login
             </button>
             <p className='text-gray-900 font-bold text-center my-2'>
-              Not yet Registered ?{' '}
+              Not yet Registered ?
               <Link to='/signup'>
-                <span className='text-blue-500'> Register</span>{' '}
-              </Link>{' '}
+                <span className='text-blue-500'> Register</span>
+              </Link>
             </p>
           </form>
         </div>

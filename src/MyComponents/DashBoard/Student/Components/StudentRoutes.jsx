@@ -1,14 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Route, Redirect } from "react-router-dom";
-import { isAuthenticated } from "./../../../../helpers/auth";
+import { isAuthenticated } from "../../../../helpers/auth";
 
-const AdminRoute = ({ component: Component, ...rest }) => {
+const StudentRoutes = ({ component: Component, ...rest }) => {
 	return (
 		<Route
 			{...rest}
 			render={(props) =>
-				isAuthenticated() && isAuthenticated().user?.role === 2 /* User 2 is Admin */ ? (
+				isAuthenticated() && isAuthenticated().user?.role === 1 ? (
 					<Component {...props} />
 				) : (
 					<Redirect
@@ -23,4 +23,4 @@ const AdminRoute = ({ component: Component, ...rest }) => {
 	);
 };
 
-export default AdminRoute;
+export default StudentRoutes;

@@ -41,10 +41,10 @@ export default function Personell() {
               training.
             </p>
 
-            <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
+            <h2 className="leading-tight text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
               RIGOROUSLY SCREENED
             </h2>
-            <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">
+            <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
               The Argus Security Pre-employment screening process involves
               investigating the backgrounds of potential employees to make sure
               that their skills, experience, and attitude meets our standards.
@@ -55,10 +55,10 @@ export default function Personell() {
               a high degree of trust with our customers.
             </p>
 
-            <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
+            <h2 className="leading-tight text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
               EXCEPTIONALLY TRAINED
             </h2>
-            <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">
+            <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
               Argus Security Guards are all trained to meet and exceed the
               required security training that the government has regulated. In
               addition to the required government training, Argus Security
@@ -74,10 +74,10 @@ export default function Personell() {
               the day and can see their progress and achievements.
             </p>
 
-            <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
+            <h2 className="leading-tight text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
               PROFESSIONAL ATTITUDES
             </h2>
-            <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">
+            <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
               The Legal Departments’ mission is to guide every operation towards
               legal compliance, provide advice and to protect clients. The Legal
               Department processes all formal legal disputes and assesses the
@@ -86,10 +86,10 @@ export default function Personell() {
               mitigation can apply
             </p>
 
-            <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
+            <h2 className="leading-tight text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
               Area Management Department
             </h2>
-            <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">
+            <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
               Argus Security is built on a culture of professionalism. Our
               Guards are trained to maintain a professional attitude. We define
               a professional attitude as someone who has respect, integrity,
@@ -102,10 +102,10 @@ export default function Personell() {
               level of discipline in the industry.
             </p>
 
-            <h2 className="text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
+            <h2 className="leading-tight text-4xl title-font font-bold text-gray-900 mt-8 mb-8">
               ACCOUNTABILITY
             </h2>
-            <p className="leading-relaxed text-l font-medium text-gray-2 mb-8">
+            <p className="leading-loose text-lg font-medium text-gray-2 mb-8">
               Each site will be given a Supervisor who will be responsible for
               the management of security operations. The Site Supervisor will be
               responsible for the site’s scheduling, reviewing reports,

@@ -1,10 +1,10 @@
 import "./App.css";
 import "./MyComponents/Components/FontAwesomeIcons"
+import { TweenMax , Power3 } from "gsap/gsap-core";
 
 import AdminRoute from "./MyComponents/DashBoard/Admin/Components/AdminRoutes";
+import StudentRoutes from "./MyComponents/DashBoard/Student/Components/StudentRoutes";
 
-import Header from "./MyComponents/Partials/Header.jsx";
-import Header2 from "./MyComponents/Partials/Header2.jsx";
 import Footer from "./MyComponents/Partials/Footer.jsx";
 import Home from "./MyComponents/Main/Home.jsx";
 import SignUp from "./MyComponents/User/SignUp.jsx";
@@ -28,7 +28,6 @@ import StudentCalendar from  "./MyComponents/DashBoard/Student/Calendar.jsx";
 import StudentCourse from "./MyComponents/DashBoard/Student/PurchaseCourse.jsx";
 import StudentTraining from "./MyComponents/DashBoard/Student/Training"
 import StudentContact from "./MyComponents/DashBoard/Student/Contact"
-import Service from "./MyComponents/Components/Service";
 import ScrollToTop from "./Functions/ScrollToTop";
 
 import AdminHome from "./MyComponents/DashBoard/Admin/Home"
@@ -65,11 +64,11 @@ function App() {
           <Route path="/harassementpolicy" component={HarassementPolicy} />
           <Route path="/personell" component={Personell} />
           
-          <Route path="/dashboard/student/home" component={StudentHome} />
-          <Route path="/dashboard/student/calendar" component={StudentCalendar} />
-          <Route path="/dashboard/student/training" component={StudentTraining} />
-          <Route path="/dashboard/student/course" component={StudentCourse} />
-          <Route path="/dashboard/student/contact" component={StudentContact} />
+          <StudentRoutes path="/dashboard/student/home" component={StudentHome} />
+          <StudentRoutes path="/dashboard/student/calendar" component={StudentCalendar} />
+          <StudentRoutes path="/dashboard/student/training" component={StudentTraining} />
+          <StudentRoutes path="/dashboard/student/course" component={StudentCourse} />
+          <StudentRoutes path="/dashboard/student/contact" component={StudentContact} />
             
           <AdminRoute path="/dashboard/admin/home" component={AdminHome} />
           <AdminRoute path="/dashboard/admin/homecontrols" component={AdminHomeControls} />

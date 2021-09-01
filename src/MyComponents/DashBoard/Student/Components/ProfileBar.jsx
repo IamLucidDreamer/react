@@ -1,10 +1,11 @@
 import React from "react";
 import ProfilePicture from "./../../../../argus website/PNG/IMG_0118.png";
+import { signout } from "../../../../helpers/auth";
 
 export default function ProfileBar() {
   return (
     <div className="w-full my-10 flex flex-col">
-      <button className="p-2 text-l text-black font-bold ml-auto md:mr-auto md:ml-10">
+      <button className="p-2 text-l text-black font-bold ml-auto md:mr-auto md:ml-10" onClick={signout}>
         Logout
       </button>
       <div className="text-center">
