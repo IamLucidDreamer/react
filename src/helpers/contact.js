@@ -17,9 +17,9 @@ export const updateContact = (data, token) => {
     .catch((err) => console.log(err));
 };
 
-export const getContact = async() => {
+export const getContact = () => {
   const url = `${API}/contact/get`;
-  return await fetch(url, {
+  return  fetch(url, {
     method: 'GET',
     headers: {
       Accept: 'application/JSON',
