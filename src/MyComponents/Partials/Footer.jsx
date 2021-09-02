@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Logo from './../../argus website/SVG/logosvg.svg';
 import { Link } from 'react-router-dom';
 import { subscriber } from '../../helpers/footer';
@@ -7,10 +7,21 @@ import { getContact } from '../../helpers/contact';
 
 const Footer = () => {
   const [email, setEmail] = useState('');
+  const [contact, setContact] = useState({
+    email: '',
+    phoneNumber: '',
+    address: ''
+  })
 
-  const details = getContact()
-  const { phoneNumber, mail, address } = details
-  console.log(details)
+  useEffect(() => {
+   getContact().then((data) => {
+     setContact({
+       email :  data?.email,
+       phoneNumber: data?.phoneNumber,
+       address: data?.address
+     });
+   });
+  }, [])
 
   const handleSubscriberChange = (event) => {
     setEmail(event.target.value);
@@ -44,17 +55,17 @@ const Footer = () => {
               <hr className='border-1 border-gray-600 w-11/12 my-3' />
               <p href='tel:6472891070' className='px-2 py-1'>
                 {/* <img src={phone_logo} alt="Phone Logo" /> */}
-                <p>{phoneNumber}</p>
+                <p>{contact?.phoneNumber}</p>
               </p>
               <p
                 href='mailto:info@argussecurityservices.ca'
                 className='px-2 py-1'>
                 {/* <img src={phone_logo} alt="Phone Logo" /> */}
-                <p>info@argussecurityservices.ca</p>
+                <p>{contact?.email}</p>
               </p>
               {/* <img src={phone_logo} alt="Phone Logo" /> */}
               <p>
-                350 Rutherford Road South Brampton ON L6W-4N6 Suite 210 Plaza 2
+                {contact?.address}
               </p>
             </div>
             <div className='lg:w-1/3 md:w-1/2 w-full px-4 pt-10 md:pt-32'>
