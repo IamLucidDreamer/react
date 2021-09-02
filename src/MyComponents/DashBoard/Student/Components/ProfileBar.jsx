@@ -1,8 +1,10 @@
 import React from "react";
 import ProfilePicture from "./../../../../argus website/PNG/IMG_0118.png";
 import { signout } from "../../../../helpers/auth";
+import {link , useHistory} from "react-router-dom"
 
-export default function ProfileBar() {
+const ProfileBar = () => {
+  
   return (
     <div className="w-full my-10 flex flex-col">
       <button className="p-2 text-l text-black font-bold ml-auto md:mr-auto md:ml-10" onClick={signout}>
@@ -231,3 +233,5 @@ export default function ProfileBar() {
     </div>
   );
 }
+
+export default ProfileBar;

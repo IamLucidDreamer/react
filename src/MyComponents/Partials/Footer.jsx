@@ -2,9 +2,15 @@ import React, { useState } from 'react';
 import Logo from './../../argus website/SVG/logosvg.svg';
 import { Link } from 'react-router-dom';
 import { subscriber } from '../../helpers/footer';
+import { getContact } from '../../helpers/contact';
+
 
 const Footer = () => {
   const [email, setEmail] = useState('');
+
+  const details = getContact()
+  const { phoneNumber, mail, address } = details
+  console.log(details)
 
   const handleSubscriberChange = (event) => {
     setEmail(event.target.value);
@@ -38,7 +44,7 @@ const Footer = () => {
               <hr className='border-1 border-gray-600 w-11/12 my-3' />
               <p href='tel:6472891070' className='px-2 py-1'>
                 {/* <img src={phone_logo} alt="Phone Logo" /> */}
-                <p>647-289-1070</p>
+                <p>{phoneNumber}</p>
               </p>
               <p
                 href='mailto:info@argussecurityservices.ca'

@@ -16,3 +16,18 @@ export const updateContact = (data, token) => {
     })
     .catch((err) => console.log(err));
 };
+
+export const getContact = async() => {
+  const url = `${API}/contact/get`;
+  return await fetch(url, {
+    method: 'GET',
+    headers: {
+      Accept: 'application/JSON',
+      'Content-Type': 'application/JSON',
+    },
+  })
+    .then((response) => {
+      return response.json();
+    })
+    .catch((err) => console.log(err));
+};
