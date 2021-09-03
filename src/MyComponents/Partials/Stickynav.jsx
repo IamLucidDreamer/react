@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 import { Link } from 'react-router-dom'
 import Logo from "./../../argus website/SVG/logosvg.svg"
 import Scroll from "./../../argus website/SVG/Scroll up.svg"
+import gsap from 'gsap'
 
 const Stickynav = () => {
     
@@ -17,19 +18,17 @@ const Stickynav = () => {
     }
     }
 
-    const scrollToTop = () =>{
+    const scrollToTop = () => {
         window.scrollTo({
           top: 0, 
           behavior: 'smooth'
-          /* you can also use 'auto' behaviour
-             in place of 'smooth' */
         });
       };
 
     return (
-    
+
     <div className={open? "block" : "hidden"}>
-        <div className="hidden lg:block w-full px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 text-l fixed top-0 bg-red-1 font-for-para shadow-xl">
+        <div className="hidden lg:block w-full px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 text-l fixed top-0 bg-red-1 font-for-para shadow-lg">
             
             <Link to="/react">
                 <img src={Logo} alt="" className="w-24 fixed top-1 left-2"/>

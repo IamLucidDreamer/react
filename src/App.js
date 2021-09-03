@@ -30,6 +30,7 @@ import StudentTraining from "./MyComponents/DashBoard/Student/Training"
 import StudentContact from "./MyComponents/DashBoard/Student/Contact"
 import ScrollToTop from "./Functions/ScrollToTop";
 
+import LoginForAdmin from "./MyComponents/DashBoard/Admin/AdminControl/LoginForAdmin";
 import AdminHome from "./MyComponents/DashBoard/Admin/Home"
 import AdminHomeControls from "./MyComponents/DashBoard/Admin/HomePageControls"
 import AdminStatistics from "./MyComponents/DashBoard/Admin/Statistics"
@@ -69,13 +70,14 @@ function App() {
           <StudentRoutes path="/dashboard/student/training" component={StudentTraining} />
           <StudentRoutes path="/dashboard/student/course" component={StudentCourse} />
           <StudentRoutes path="/dashboard/student/contact" component={StudentContact} />
-            
+
+          <Route path="/dashboard/admin/login" component={LoginForAdmin} /> 
           <AdminRoute path="/dashboard/admin/home" component={AdminHome} />
           <AdminRoute path="/dashboard/admin/homecontrols" component={AdminHomeControls} />
           <AdminRoute path="/dashboard/admin/statistics" component={AdminStatistics} />
           <AdminRoute path="/dashboard/admin/coursecontrol" component={AdminCourseControl} />
           <AdminRoute path="/dashboard/admin/contactformmessages" component={AdminContactControl} />
-        
+
         </switch>
         <Footer />
       </div>

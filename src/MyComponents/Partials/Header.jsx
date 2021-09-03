@@ -8,7 +8,7 @@ export default function Header() {
   const [open, setOpen] = useState(false)
   
   return (
-    <div className="shadow-lg z-10\">
+    <div className="shadow-lg sticky">
       <div className="hidden lg:block px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 bg-red-1 shadow-lg text-sm">
         <div className="flex flex-row items-center mx-auto justify-between font-bold border-white font-for-para">
           <nav className="flex flex-row items-center">

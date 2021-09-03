@@ -1,7 +1,37 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-export default function EmpOfMon() {
-    return (
+const EmpOfMon = () => {
+
+    
+  const [values, setValues] = useState({
+		name: "",
+		description: "",
+    quality1: "",
+    quality2: "",
+    quality3: "",
+    empPhoto: "",
+		seniorName: "",
+		seniorPsoition: "",
+		seniorPhoto: ""
+	});
+
+  
+  const {
+		name,
+		description,
+    quality1,
+    quality2,
+    quality3,
+    empPhoto,
+		seniorName,
+		seniorPsoition,
+		seniorPhoto,
+	} = values;
+
+
+  
+  
+  return (
         <div className="mx-8 my-8 p-4 bg-white shadow-lg rounded-xl">
 
             <button className="border-2 border-dashed border-red-1 text-white bg-red-1 p-4 my-4 hover:text-red-1 hover:bg-opacity-30">Delete Existing Employee of the Month</button>
@@ -66,7 +96,7 @@ export default function EmpOfMon() {
                 <input
                   className="p-4 my-4 border border-black"
                   type="file"
-                  accept="image/png, image/jpeg"
+                  accept="image"
                 />
                 <button className="w-2/3 mx-auto p-4 border text-white bg-red-700 hover:bg-white hover:text-red-700 hover:border-red-700">
                   Update
@@ -76,3 +106,5 @@ export default function EmpOfMon() {
         </div>
     )
 }
+
+export default EmpOfMon;

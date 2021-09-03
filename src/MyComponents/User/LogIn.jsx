@@ -56,7 +56,7 @@ const LogIn = ({ open }) => {
   return (
     <div class={open ? "block fixed top-0 z-100 overflow-hidden" : "hidden"}>
       <div className="p-32 w-screen h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-black bg-opacity-80">
-        <div className="w-full p-4 md:p-16 lg:p-40 bg-cover bg-no-repeat bg-hero rounded-3xl flex flex-col-reverse md:flex-row items-center justify-center">
+        <div className="w-full p-4 md:p-16 lg:p-40 bg-cover bg-no-repeat bg-white rounded-3xl flex flex-col-reverse md:flex-row items-center justify-center">
           <div className="content text-3xl text-center md:text-left lg:w-2/3">
           </div>
           <div className="w-1/3 mx-auto flex flex-col items-center">

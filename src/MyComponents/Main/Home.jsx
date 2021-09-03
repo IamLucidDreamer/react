@@ -315,13 +315,13 @@ export default function Home() {
                 Partners-in-Protection
               </h1>
               <div className="flex items-center">
-                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
+                <button className="px-8 py-4 text-sm font-bold bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
                   OUR TEAM
                 </button>
-                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
+                <button className="px-8 py-4 text-sm font-bold bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
                   ARGUS HIERARCHY
                 </button>
-                <button className="px-8 py-4 text-sm bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
+                <button className="px-8 py-4 text-sm font-bold bg-red-1 border border-black bg-opacity-30 mx-2 hover:bg-opacity-100">
                   CONTACT US
                 </button>
               </div>
