@@ -23,7 +23,7 @@ class Header2 extends Component {
           </Link>
           
           <Link to="/training" className="w-1/5 text-white py-3 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">
-          TRAINING
+          COURSES
           </Link>
 
           <Link to="/contact" className="w-1/5 text-white py-3 text-center bg-gray-2 bg-opacity-60 hover:bg-red-1 hover:bg-opacity-60">

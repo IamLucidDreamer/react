@@ -1,6 +1,6 @@
 import { API } from '../api';
 
-export const updateEmployeeMonth = (data, token) => {
+export const updateTestimonial = (data, token) => {
     const url = `${API}/contact/update`;
     return fetch(url, {
       method: 'PUT',
@@ -18,7 +18,7 @@ export const updateEmployeeMonth = (data, token) => {
   };
 
 
-  export const getEmployeeMonth = () => {
+  export const getTestimonial = () => {
     const url = `${API}/eom/get`;
     return  fetch(url, {
       method: 'GET',

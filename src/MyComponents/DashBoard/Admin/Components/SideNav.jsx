@@ -4,7 +4,7 @@ import Logo from './../../../../argus website/PNG/Logo Vectors.png'
 
 export default function SideNav() {
     return (
-        <div class="mx-auto">
+        <div class="mx-auto sticky left-0 top-3 ">
             <img src={Logo} alt="Argus Logo" className="mx-auto mt-10 mb-4 p-1 md:p-3"/>
             <nav className="w-11/12">
                 <Link to="/dashboard/admin/home">

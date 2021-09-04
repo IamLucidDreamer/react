@@ -43,7 +43,7 @@ export default function Home() {
               647.289.1070
             </span>
           </h1>
-          <button className="flex-shrink-0 font-bold text-white bg-red-1 py-5 px-4 md:px-12 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 rounded-lg text-sm mt-10 sm:mt-0">
+          <button className="flex-shrink-0 font-bold text-white bg-red-1 py-5 px-4 md:px-12 focus:outline-none hover:bg-white border-2 border-red-1 hover:text-red-1 shadow-lg rounded-lg text-sm mt-10 sm:mt-0">
             DISCOVER MORE
           </button>
         </div>
@@ -63,11 +63,13 @@ export default function Home() {
             </div>
           </div>
           <div className="bg-gray-3 w-full sm:w-6/12 px-3 py-5 flex flex-row items-center justify-center">
+            <div className="w-2/12 ">
             <FontAwesomeIcon
               icon="search"
-              className="w-16 h-16 text-white p-1 mr-10"
+              className="w-16 h-16 text-white"
             />
-            <div>
+            </div>
+            <div className="w-10/12">
               <p>100% Accountable</p>
               <h1 className="font-bold">Direct Updates Regarding Incidents</h1>
             </div>
@@ -262,7 +264,7 @@ export default function Home() {
           <img src={section5} className="w-24 h-24" alt="" />
           <div className="-mt-20 -ml-6">
             <svg
-              className="w-14 h-14 bg-white"
+              className="w-14 h-14 bg-white rounded-xl"
               xmlns="http://www.w3.org/2000/svg"
               width="85.04"
               height="85.003"
@@ -379,7 +381,7 @@ export default function Home() {
         <h1 className="flex-grow sm:pr-28 text-4xl font-bold text-white leading-tight">
           Covid 19 Procedures and much more to safeguard your business.
         </h1>
-        <button className="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-12 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white rounded-lg text-l mt-10 sm:mt-0">
+        <button className="flex-shrink-0 font-bold text-red-1 bg-white py-5 px-12 focus:outline-none hover:bg-red-1 border-2 border-white hover:text-white shadow-lg rounded-lg text-l mt-10 sm:mt-0">
           DISCOVER MORE
         </button>
       </div>
@@ -521,7 +523,7 @@ export default function Home() {
         <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-4">
           <span className="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
           <h1 className="leading-tight text-4xl font-bold text-gray-3 mb-4">
-            Sponsors
+            Clients
           </h1>
         </div>
         <div className="flex flex-wrap mx-auto items-center justify-around">

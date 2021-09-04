@@ -21,7 +21,7 @@ class Training extends Component {
                 <div className="text-gray-600 body-font bg-no-repeat bg-cover bg-servicesbg">
                     <div className="container mx-auto flex px-5 py-40 items-center justify-center flex-col">
                         <div className="text-center lg:w-2/3 w-full">
-                        <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold font-for-para text-white">TRAINING</h1>
+                        <h1 className="title-font sm:text-6xl text-3xl mb-4 font-bold font-for-para text-white">COURSES</h1>
                         </div>
                     </div>
                 </div>

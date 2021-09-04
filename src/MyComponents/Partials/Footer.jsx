@@ -75,55 +75,55 @@ const Footer = () => {
               <nav className='list-none mb-10'>
                 <li>
                   {' '}
-                  <Link to='/about' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/about' className='text-white  hover:text-red-1'>
                       ➔ About
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/services' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/services' className='text-white  hover:text-red-1'>
                       ➔ Our Services
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/' className='text-white  hover:text-red-1'>
                       ➔ Covid-19 Plan
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/' className='text-white  hover:text-red-1'>
                       ➔ Organization Structure
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/jobs' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/jobs' className='text-white  hover:text-red-1'>
                       ➔ Jobs
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/' className='text-white  hover:text-red-1'>
                       ➔ Personnel
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/training' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/training' className='text-white  hover:text-red-1'>
                       ➔ Training
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/contact' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/contact' className='text-white  hover:text-red-1'>
                       ➔ Contact Us
                   </Link>{' '}
                 </li>
                 <li>
                   {' '}
-                  <Link to='/technology' className='text-white font-thin hover:text-red-1'>
+                  <Link to='/technology' className='text-white  hover:text-red-1'>
                       ➔ Technology
                   </Link>{' '}
                 </li>
@@ -137,7 +137,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Gated Community Security
                     </button>
                   </Link>{' '}
@@ -145,7 +145,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Construction Security
                     </button>
                   </Link>{' '}
@@ -153,7 +153,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Parking Enforcement
                     </button>
                   </Link>{' '}
@@ -161,7 +161,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Residential Security
                     </button>
                   </Link>{' '}
@@ -169,7 +169,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Corporate Security
                     </button>
                   </Link>{' '}
@@ -177,7 +177,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Industrial Security
                     </button>
                   </Link>{' '}
@@ -185,7 +185,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Private Security
                     </button>
                   </Link>{' '}
@@ -193,7 +193,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Mobile Security
                     </button>
                   </Link>{' '}
@@ -201,7 +201,7 @@ const Footer = () => {
                 <li>
                   {' '}
                   <Link to='/services'>
-                    <button className='text-white font-thin hover:text-red-1'>
+                    <button className='text-white  hover:text-red-1'>
                       ➔ Event Security
                     </button>
                   </Link>{' '}
@@ -212,8 +212,8 @@ const Footer = () => {
           <div className='w-full md:w-1/2 lg:w-3/12 bg-red-1'>
             <div className='w-full px-4 text-center items-center pt-8'>
               <div className='flex flex-col bg-red-1 items-center mx-auto'>
-                <div className="bg-contain bg-no-repeat bg-center bg-shape bg-opacity-5 px-10 pt-12 pb-2 ">
-                <h2 className='title-font font-bold text-white tracking-widest text-sm mb-3 text-center pb-4'>
+                <div className="bg-contain bg-no-repeat bg-center bg-shape bg-opacity-5 px-6 pt-12 pb-2 ">
+                <h2 className='title-font font-bold text-white tracking-widest text-sm mb-3 text-center pb-2'>
                   NEWSLETTER
                 </h2>
                 <p className='text-white text-sm mt-2 text-center leading-relaxed'>
@@ -221,7 +221,7 @@ const Footer = () => {
                 </p>
                 </div>
 
-                <form className='w-full px-10 pt-2 pb-8 ' onSubmit={handleSubmit}>
+                <form className='w-full px-6 pt-2 pb-8 ' onSubmit={handleSubmit}>
                   <input
                     type='email'
                     className='w-full my-4 bg-white border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-white focus:border-white text-base outline-none text-black focus:text-white py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'

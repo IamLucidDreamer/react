@@ -49,7 +49,7 @@ const Stickynav = () => {
             </Link>
             
             <Link to="/training" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
-            TRAINING
+            COURSE
             </Link>
 
             <Link to="/contact" className="w-1/5 text-white py-4 text-center bg-red-1 hover:bg-gray-3">
@@ -61,7 +61,7 @@ const Stickynav = () => {
         <div className="w-12">
             
             <button onClick={scrollToTop}>
-                <img src={Scroll} alt="" className="w-12 fixed bottom-4 right-4"/>
+                <img src={Scroll} alt="" className="w-12 fixed bottom-4 right-4 shadow-lg"/>
             </button>
         </div>
       </div>
