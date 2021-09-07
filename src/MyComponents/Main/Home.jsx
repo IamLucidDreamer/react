@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import section4_img1 from "./../../argus website/PNG/Video1.png";
 import section4_img2 from "./../../argus website/PNG/3.Charlie.png";
-import quotes from "./../../argus website/PNG/qoutes.png";
+//import quotes from "../../argus website/PNG/quotes.png";
 import signature from "./../../argus website/SVG/01.svg";
 import section6 from "./../../argus website/PNG/sdm.png";
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
@@ -141,11 +141,11 @@ export default function Home() {
               <div>
                 <div className="px-2 py-2 mx-auto">
                   <div className="w-full text-left">
-                    <img
+                    {/* <img
                       src={quotes}
                       alt=""
                       className="w-12 inline-block text-red-1 ml-4 -mb-4"
-                    />
+                    /> */}
                     <p className="leading-relaxed text-xl font-medium text-gray-2 bg-gray-200 px-12 py-8 shadow-lg mb-8">
                       Success is not result of the amount of time we put in,
                       instead its the quality of time we put in.
@@ -405,11 +405,11 @@ export default function Home() {
           <div className="p-8 md:w-1/2 w-full">
             <div className="h-full bg-white shadow-lg flex flex-col">
               <div className="bg-gray-1 px-6 py-10 ml-auto">
-                <img
+                {/* <img
                   src={quotes}
                   alt=""
                   className="w-12 text-red-1 ml-auto -mt-16"
-                />
+                /> */}
               </div>
               <div className ="px-6 sm:px-16 pb-10 pt-4">
               <p className="leading-loose mb-6">
@@ -435,11 +435,11 @@ export default function Home() {
           <div className="p-8 md:w-1/2 w-full">
             <div className="h-full bg-white shadow-lg flex flex-col">
               <div className="bg-gray-1 px-6 py-10 ml-auto">
-                <img
+                {/* <img
                   src={quotes}
                   alt=""
                   className="w-12 text-red-1 ml-auto -mt-16"
-                />
+                /> */}
               </div>
               <div className ="px-6 sm:px-16 pb-10 pt-4">
               <p className="leading-loose mb-6">
