@@ -34,8 +34,6 @@ const EmployeeMonth = () => {
         });
        }, [])
     
-    
-    
     return (
         <div>
         {/* <img src={medal} alt="" className="w-52 h-52 mr-auto -mb-52" /> */}
@@ -92,7 +90,7 @@ const EmployeeMonth = () => {
             </div>
             <div className="items-end w-full md:w-1/2 lg:pl-12">
               <img
-                src={emp?.empImage}
+                src={`data:image/png;base64,${emp?.empImage}`}
                 alt="Argus Security Services"
                 className="w-10/12"
               />

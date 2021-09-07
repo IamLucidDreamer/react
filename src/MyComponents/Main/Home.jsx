@@ -173,7 +173,7 @@ export default function Home() {
       </div>
 
       {/* Section 5 Services */}
-      <div className="bg-gray-200 px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 font-for-para">
+      <div className="bg-no-repeat bg-contain bg-siren px-4 sm:px-8 md:px-20 lg:px-32 xl:px-48 pt-24 pb-12 font-for-para">
         <div className="flex flex-wrap">
           <div className="flex flex-wrap w-full items-baseline">
             <div className="w-full flex flex-col md:flex-row items-center pb-5">
@@ -191,78 +191,81 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="flex flex-wrap justify-between text-center mb-8 ">
-          <div className="p-8 md:w-1/3">
+        <div className="flex flex-wrap justify-between text-center mb-16 ">
+          
+          
+          <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden ">
               <img
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300 z-10"
                 src={image1}
                 alt="blog"
               />
-              <div className=" bg-white">
-                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+              <div className="mx-3 bg-white border-6 hover:bg-gray-200 duration-500 -mt-8 z-50">
+                <h1 className="title-font text-lg font-medium text-white p-3 mb-3 bg-center bg-no-repeat bg-shape1">
                   GATED COMMUNITY
                 </h1>
                 <p className="leading-loose text-gray-2 px-6 py-2">
                   NFS marked vehicles, communication between residents &
                   security staff and efficient use of technology
                 </p>
-              </div>
-              <Link to="/contact">
-                <button className="w-full p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">
+                <Link to="/contact">
+                <button className="w-full p-4 text-black bg-gray-200 hover:bg-red-1 hover:text-white">
                   Read More
                 </button>
               </Link>
+              </div>
             </div>
           </div>
 
-          <div className="p-8 md:w-1/3">
+          <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden ">
               <img
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300"
                 src={image1}
                 alt="blog"
               />
-              <div className=" bg-white">
-                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+              <div className=" bg-white border-6 hover:bg-gray-200 duration-500">
+                <h1 className="title-font text-lg font-medium text-white p-3 mb-3 bg-center bg-no-repeat bg-shape1">
                   GATED COMMUNITY
                 </h1>
                 <p className="leading-loose text-gray-2 px-6 py-2">
                   NFS marked vehicles, communication between residents &
                   security staff and efficient use of technology
                 </p>
-              </div>
-              <Link to="/contact">
-                <button className="w-full p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">
+                <Link to="/contact">
+                <button className="w-full p-4 text-black bg-gray-200 hover:bg-red-1 hover:text-white">
                   Read More
                 </button>
               </Link>
+              </div>
             </div>
           </div>
 
-          <div className="p-8 md:w-1/3">
+          <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden ">
               <img
-                className="lg:h-48 md:h-36 w-full object-cover object-center"
+                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300"
                 src={image1}
                 alt="blog"
               />
-              <div className=" bg-white">
-                <h1 className="title-font text-lg font-medium text-white p-4 mb-3 bg-center bg-no-repeat bg-shape1">
+              <div className=" bg-white border-6 hover:bg-gray-200 duration-500">
+                <h1 className="title-font text-lg font-medium text-white p-3 mb-3 bg-center bg-no-repeat bg-shape1">
                   GATED COMMUNITY
                 </h1>
                 <p className="leading-loose text-gray-2 px-6 py-2">
                   NFS marked vehicles, communication between residents &
                   security staff and efficient use of technology
                 </p>
-              </div>
-              <Link to="/contact">
-                <button className="w-full p-4 rounded-lg border text-white bg-red-1 hover:bg-white hover:text-red-1 hover:border-red-1">
+                <Link to="/contact">
+                <button className="w-full p-4 text-black bg-gray-200 hover:bg-red-1 hover:text-white">
                   Read More
                 </button>
               </Link>
+              </div>
             </div>
           </div>
+
         </div>
         <div className="w-9/12 mx-auto flex items-center py-3">
           <img src={section5} className="w-24 h-24" alt="" />
