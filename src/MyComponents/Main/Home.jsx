@@ -4,18 +4,16 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link } from "react-router-dom";
 import section4_img1 from "./../../argus website/PNG/Video1.png";
 import section4_img2 from "./../../argus website/PNG/3.Charlie.png";
-//import quotes from "../../argus website/PNG/quotes.png";
+import quotes from "../../argus website/PNG/quotes.PNG";
 import signature from "./../../argus website/SVG/01.svg";
 import section6 from "./../../argus website/PNG/sdm.png";
 import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import section5 from "./../../argus website/PNG/0000000.png";
 import image1 from "./../../argus website/PNG/raw-2_edited.png";
-import empofmonth from "./../../argus website/PNG/8. Sud.png";
 import testimonial from "./../../argus website/PNG/IMG_0118.png";
 import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
 import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png";
 import camera from "./../../argus website/SVG/3. camera.svg";
-import medal from "./../../argus website/SVG/3. Medal.svg";
 import HeroImage from "./../../argus website/PNG/2.png";
 import Header from "./../Partials/Header";
 import Header2 from "./../Partials/Header2";
@@ -36,12 +34,12 @@ export default function Home() {
         <img
           src={HeroImage}
           alt=""
-          className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 z-0"
+          className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48"
         />
       </div>
 
       {/* Section 2 CAll Us */}
-      <div className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto z-0">
+      <div className="px-4 sm:px-8 md:px-16 lg:px-32 xl:px-48 mx-auto">
         <div className="flex flex-col sm:flex-row sm:items-end mx-auto">
           <h1 className="flex-grow sm:pr-16 text-4xl font-bold font-for-para text-gray-400">
             Call Us <br />
@@ -141,11 +139,11 @@ export default function Home() {
               <div>
                 <div className="px-2 py-2 mx-auto">
                   <div className="w-full text-left">
-                    {/* <img
+                    <img
                       src={quotes}
                       alt=""
                       className="w-12 inline-block text-red-1 ml-4 -mb-4"
-                    /> */}
+                    />
                     <p className="leading-relaxed text-xl font-medium text-gray-2 bg-gray-200 px-12 py-8 shadow-lg mb-8">
                       Success is not result of the amount of time we put in,
                       instead its the quality of time we put in.
@@ -197,11 +195,11 @@ export default function Home() {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden ">
               <img
-                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300 z-10"
+                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300"
                 src={image1}
                 alt="blog"
               />
-              <div className="mx-3 bg-white border-6 hover:bg-gray-200 duration-500 -mt-8 z-50">
+              <div className="bg-white border-6 hover:bg-gray-200 duration-500">
                 <h1 className="title-font text-lg font-medium text-white p-3 mb-3 bg-center bg-no-repeat bg-shape1">
                   GATED COMMUNITY
                 </h1>
@@ -405,11 +403,11 @@ export default function Home() {
           <div className="p-8 md:w-1/2 w-full">
             <div className="h-full bg-white shadow-lg flex flex-col">
               <div className="bg-gray-1 px-6 py-10 ml-auto">
-                {/* <img
+                <img
                   src={quotes}
                   alt=""
                   className="w-12 text-red-1 ml-auto -mt-16"
-                /> */}
+                />
               </div>
               <div className ="px-6 sm:px-16 pb-10 pt-4">
               <p className="leading-loose mb-6">
@@ -435,11 +433,11 @@ export default function Home() {
           <div className="p-8 md:w-1/2 w-full">
             <div className="h-full bg-white shadow-lg flex flex-col">
               <div className="bg-gray-1 px-6 py-10 ml-auto">
-                {/* <img
+                <img
                   src={quotes}
                   alt=""
                   className="w-12 text-red-1 ml-auto -mt-16"
-                /> */}
+                />
               </div>
               <div className ="px-6 sm:px-16 pb-10 pt-4">
               <p className="leading-loose mb-6">
