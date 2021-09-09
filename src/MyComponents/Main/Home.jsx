@@ -20,6 +20,7 @@ import Header2 from "./../Partials/Header2";
 import Stickynav from "./../Partials/Stickynav";
 import MobileHeader from "../Partials/MobileHeader";
 import EmployeeMonth from "../Components/EmployeeMonth";
+import Alert from "../Components/Alert";
 
 export default function Home() {
   return (
@@ -28,6 +29,7 @@ export default function Home() {
       <Header2 />
       <Stickynav />
       <MobileHeader />
+      
 
       {/* Section 1 */}
       <div className="bg-cover bg-center bg-no-repeat bg-empofmon bg-fixed">
@@ -78,6 +80,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Alert/>
 
       {/* Section 4 Introducing Argus Security */}
       <div>
