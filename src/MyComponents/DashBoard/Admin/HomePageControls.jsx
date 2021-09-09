@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import SideNav from "./Components/SideNav";
 import ProfileBar from "./Components/ProfileBar";
-import EmpOfMon from "./Components/EmpOfMon";
-import Testimonials from "./Components/Testimonial";
-import FooterControlSS from "./Components/FooterControl";
-import FooterControl from "./Components/FooterControl";
+import EmpOfMon from "./Components/WebsiteControlComponents/EmpOfMon";
+import Testimonials from "./Components/WebsiteControlComponents/Testimonial";
+import FooterControl from "./Components/WebsiteControlComponents/FooterControl";
+import ClientControl from "./Components/WebsiteControlComponents/ClientControl"
+import TeamControl from "./Components/WebsiteControlComponents/TeamControl";
 
 
 export default function Home() {
@@ -28,14 +29,20 @@ export default function Home() {
                 <button className="rounded-2xl text-xl py-4 px-5 bg-white shadow-lg hover:bg-red-1 hover:text-white" onClick={() => setShow(4)}>Clients</button>
                 <button className="rounded-2xl text-xl py-4 px-5 bg-white shadow-lg hover:bg-red-1 hover:text-white" onClick={() => setShow(5)}>Team</button>
               </nav>
-              <div className={show == 1 ? "block" : "hidden"}>
+              <div className={show === 1 ? "block" : "hidden"}>
                 <Testimonials />
               </div>
-              <div className={show == 2 ? "block" : "hidden"}>
+              <div className={show === 2 ? "block" : "hidden"}>
                 <EmpOfMon />
               </div>
-              <div className={show == 3 ? "block" : "hidden"}>
+              <div className={show === 3 ? "block" : "hidden"}>
                 <FooterControl />
+              </div>
+              <div className={show === 4 ? "block" : "hidden"}>
+                <ClientControl />
+              </div>
+              <div className={show === 5 ? "block" : "hidden"}>
+                <TeamControl />
               </div>
             </div>
 

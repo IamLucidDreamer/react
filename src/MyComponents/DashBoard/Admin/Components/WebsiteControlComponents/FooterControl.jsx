@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
-import { isAuthenticated } from '../../../../helpers/auth';
-import { updateContact } from '../../../../helpers/contact';
-import CompanyContact from './../../../Components/CompanyContact';
+import { isAuthenticated } from '../../../../../helpers/auth';
+import { updateContact } from '../../../../../helpers/contact';
+import CompanyContact from '../../../../Components/CompanyContact';
 
  const FooterControl = () => {
   const [data, setData] = useState({

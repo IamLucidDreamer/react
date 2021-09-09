@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function Testimonials() {
+export default function TeamControl() {
     return (
         <div className="mx-8 my-8 p-4 bg-white shadow-lg rounded-xl">
 
@@ -16,25 +16,20 @@ export default function Testimonials() {
                     fill="currentColor"
                   ></path>
                 </svg>
-                <h1 className="text-sm font-bold text-black p-2"> Add Testimonial</h1>
+                <h1 className="text-sm font-bold text-black p-2"> Add Team Member</h1>
               </div>
               <form className="flex flex-col items-center py-4">
                 <input
                   className="w-full border-b border-black focus:outline-none my-2"
                   type="text"
-                  placeholder="Name of Client"
-                />
-                <textarea
-                  className="w-full border-b border-black focus:outline-none my-2"
-                  type="text"
-                  placeholder="Write Testimonial by the clien."
+                  placeholder="Name of the Team Member"
                 />
                 <input
                   className="w-full border-b border-black focus:outline-none my-2"
                   type="text"
-                  placeholder="Name of Company client is from"
+                  placeholder="Description of Team Member"
                 />
-                <lable className="text-gray-2">Upload Image of the Client</lable>
+                <lable className="text-gray-2">Upload Image of the Team Member</lable>
                 <input
                   className="p-4 my-4 border border-black"
                   type="file"
