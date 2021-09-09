@@ -49,7 +49,7 @@ const SignUp = () => {
     <MobileHeader />
     <Stickynav />
 
-    <div className='p-20 h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center bg-hero'>
+    <div className='p-20 h-screen w-full flex flex-col-reverse md:flex-row items-center justify-center bg-center bg-no-repeat bg-cover bg-hero'>
       <div className='content text-3xl text-center md:text-left lg:w-2/3'>
         <h1 className='text-5xl text-gray-700 font-bold'>Argus Security</h1>
         <p>Your partners in protection</p>

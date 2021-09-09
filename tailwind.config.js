@@ -16,7 +16,8 @@ module.exports = {
         'empofmon':"url('argus website/PNG/Overlay.png')",
         'shape':"url(argus website/SVG/5. Newsletter-svg.svg)",
         'shape1':"url(argus website/SVG/Path 217.svg)",
-        'siren':"url(argus website/SVG/siren.svg)" 
+        'siren':"url(argus website/SVG/siren.svg)",
+        'logincar': "url(argus website/PNG/2. Hero box.png)" 
        }),
        colors: {
         'gray-1': '#F1F1F1',

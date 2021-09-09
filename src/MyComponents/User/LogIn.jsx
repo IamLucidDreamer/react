@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logo from "./../../argus website/PNG/Logo Vectors.png";
 import { Link , useHistory} from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 // eslint-disable-next-line no-unused-vars
 import { aunthenticate, signin, isAuthenticated } from "../../helpers/auth";
 
@@ -56,10 +57,15 @@ const LogIn = ({ open }) => {
   return (
     <div class={open ? "block fixed top-0 z-100 overflow-hidden" : "hidden"}>
       <div className="p-32 w-screen h-screen flex flex-col-reverse md:flex-row items-center justify-center bg-black bg-opacity-80">
-        <div className="w-full p-4 md:p-16 lg:p-40 bg-cover bg-no-repeat bg-white rounded-3xl flex flex-col-reverse md:flex-row items-center justify-center">
+        <div className="w-full p-4 md:p-16 lg:p-40 bg-white rounded-3xl flex flex-col-reverse md:flex-row items-center justify-center bg-no-repeat bg-cover bg-logincar">
           <div className="content text-3xl text-center md:text-left lg:w-2/3">
           </div>
           <div className="w-1/3 mx-auto flex flex-col items-center">
+          <button> {/*Close Button*/}
+          <FontAwesomeIcon
+          icon="window-close"
+          className="text-3xl text-white bg-black fixed top-4 right-4" />
+        </button>
             <form
               className="shadow-lg w-96 p-4 flex flex-col bg-white rounded-lg items-center justify-center"
               onSubmit={handleSubmit}

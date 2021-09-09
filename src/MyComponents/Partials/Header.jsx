@@ -23,9 +23,9 @@ export default function Header() {
             <img src={Logo} alt="Logo of Argus Security" className="w-24 my-2"/>
           </Link>
           <nav className="flex flex-row items-center">
-            <Link open={open} onClick={() => setOpen(!open)} className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-inner">
+            <button open={open} onClick={() => setOpen(true)} className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-inner">
               Student Portal
-            </Link>
+            </button>
             <Link to="/dashboard/student/home" className="text-white border-3 border-white rounded px-3 py-3 mr-3 hover:bg-white hover:text-red-1 hover:shadow-inner">
               Client Portal
             </Link>

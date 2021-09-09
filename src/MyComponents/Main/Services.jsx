@@ -425,7 +425,7 @@ const Services = () => {
           <div className="p-4 md:w-1/3">
             <div className="h-full overflow-hidden ">
               <img
-                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300"
+                className="lg:h-64 md:h-36 w-full object-cover object-center transform hover:scale-110 duration-300 z-0"
                 src={image1}
                 alt="blog"
               />
