@@ -31,8 +31,6 @@ const EmpOfMon = () => {
 
   return (
         <div className="mx-8 my-8 p-4 bg-white shadow-lg rounded-xl">
-
-            <button className="border-2 border-dashed border-red-1 text-white bg-red-1 p-4 my-4 hover:text-red-1 hover:bg-opacity-30">Delete Existing Employee of the Month</button>
             
             <div className="flex items-center">
                 <svg

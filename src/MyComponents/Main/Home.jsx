@@ -11,8 +11,6 @@ import section4img from "./../../argus website/PNG/raw-2_edited.png";
 import section5 from "./../../argus website/PNG/0000000.png";
 import image1 from "./../../argus website/PNG/raw-2_edited.png";
 import testimonial from "./../../argus website/PNG/IMG_0118.png";
-import sponsor1 from "./../../argus website/PNG/6. Sponsor 1.png";
-import sponsor2 from "./../../argus website/PNG/7. Sponsor 2.png";
 import camera from "./../../argus website/SVG/3. camera.svg";
 import HeroImage from "./../../argus website/PNG/2.png";
 import Header from "./../Partials/Header";
@@ -21,6 +19,7 @@ import Stickynav from "./../Partials/Stickynav";
 import MobileHeader from "../Partials/MobileHeader";
 import EmployeeMonth from "../Components/EmployeeMonth";
 import ClientTestimonial from "../Components/ClientTestimonial";
+import ClientCorousal from "../Components/ClientCorousal";
 
 export default function Home() {
   return (
@@ -396,19 +395,7 @@ export default function Home() {
       <EmployeeMonth />
 
       {/* Section 10 Sponsors */}
-      <div className="px-4 sm:px-8 md:px-16 lg:px-28 xl:px-48 py-12 mx-auto bg-gray-1">
-        <div className="flex flex-col lg:flex-row items-center lg:justify-center mb-4">
-          <span className="h-1 w-10 bg-red-1 m-6 md:m-0 md:mr-4"></span>
-          <h1 className="leading-tight text-4xl font-bold text-gray-3 mb-4">
-            Clients
-          </h1>
-        </div>
-        <div className="flex flex-wrap mx-auto items-center justify-around">
-          <img src={sponsor2} alt="" className="w-72 " />
-          <img src={sponsor1} alt="" className="w-40 " />
-          <img src={sponsor1} alt="" className="w-40 " />
-        </div>
-      </div>
+      <ClientCorousal />
     </div>
   );
 }

@@ -6,6 +6,10 @@ import Testimonials from "./Components/WebsiteControlComponents/Testimonial";
 import FooterControl from "./Components/WebsiteControlComponents/FooterControl";
 import ClientControl from "./Components/WebsiteControlComponents/ClientControl"
 import TeamControl from "./Components/WebsiteControlComponents/TeamControl";
+import { TestimonialTable } from "./Components/WebsiteControlComponents/TestimonialTable";
+import { EmpOfMonTable } from "./Components/WebsiteControlComponents/EmpOfMonTable";
+import { ClientTable } from "./Components/WebsiteControlComponents/ClientTable";
+import { TeamTable } from "./Components/WebsiteControlComponents/TeamTable";
 
 
 export default function Home() {
@@ -31,18 +35,22 @@ export default function Home() {
               </nav>
               <div className={show === 1 ? "block" : "hidden"}>
                 <Testimonials />
+                <TestimonialTable />
               </div>
               <div className={show === 2 ? "block" : "hidden"}>
                 <EmpOfMon />
+                <EmpOfMonTable />
               </div>
               <div className={show === 3 ? "block" : "hidden"}>
                 <FooterControl />
               </div>
               <div className={show === 4 ? "block" : "hidden"}>
                 <ClientControl />
+                <ClientTable />
               </div>
               <div className={show === 5 ? "block" : "hidden"}>
                 <TeamControl />
+                <TeamTable />
               </div>
             </div>
 
